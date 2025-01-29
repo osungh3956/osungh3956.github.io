@@ -14,13 +14,13 @@
 
 <link rel="stylesheet" href="/main.dc2f5458ab98613899cfadbb551e078821f7645691e4dfc57bb48d7697fe7be6885b7aea93d9ab15c53a25e38128c09220a1b4dcab934e04d1a7b374499b9872.css" integrity="sha512-3C9UWKuYYTiZz627VR4HiCH3ZFaR5N/Fe7SNdpf&#43;e&#43;aIW3rqk9mrFcU6JeOBKMCSIKG03KuTTgTRp7N0SZuYcg==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/reference/example-reference/">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/guides/spherical-laplacian-angular-momentum/">
 
-  <link rel="canonical" href="http://localhost:1313/docs/reference/example-reference/">
+  <link rel="canonical" href="http://localhost:1313/docs/guides/spherical-laplacian-angular-momentum/">
 
 
-<title>Example Reference  |  My Docs</title>
-<meta name="description" content="Reference pages are ideal for outlining how things work in terse and clear terms.">
+<title>Spherical Laplacian &amp; Angular Momentum  |  My Docs</title>
+<meta name="description" content="Congrats on setting up a new Doks project!">
 
     
     <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -47,21 +47,19 @@
       >
 <link rel="manifest" href="/manifest.webmanifest">
 
-<meta property="og:url" content="http://localhost:1313/docs/reference/example-reference/">
+<meta property="og:url" content="http://localhost:1313/docs/guides/spherical-laplacian-angular-momentum/">
   <meta property="og:site_name" content="My Docs">
-  <meta property="og:title" content="Example Reference">
-  <meta property="og:description" content="Reference pages are ideal for outlining how things work in terse and clear terms.">
+  <meta property="og:title" content="Spherical Laplacian & Angular Momentum">
+  <meta property="og:description" content="1. $\tilde{f}(x, y, z)$ &amp; $f(r, \theta, \phi)$ Degree $l$의 $\mathbb{R}^3$ 위에서의 복소계수 다항함수 벡터공간 $P_l(\mathbb{R}^3)$의 원소 $f(x, y, z)$ 를 표현하면 $$\tilde{f}(x, y, z) = \sum_{i&#43;j&#43;k=l} c_{ijk} x^i y^j z^k$$ 이를 구면좌표계 함수로 나타내면 $$f(r, \theta, \phi) = r^l Y^l(\theta, \phi)$$">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-    <meta property="article:published_time" content="2023-09-07T16:13:18+02:00">
-    <meta property="article:modified_time" content="2023-09-07T16:13:18+02:00">
     <meta property="og:image" content="http://localhost:1313/cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/cover.png">
-  <meta name="twitter:title" content="Example Reference">
-  <meta name="twitter:description" content="Reference pages are ideal for outlining how things work in terse and clear terms.">
+  <meta name="twitter:title" content="Spherical Laplacian & Angular Momentum">
+  <meta name="twitter:description" content="1. $\tilde{f}(x, y, z)$ &amp; $f(r, \theta, \phi)$ Degree $l$의 $\mathbb{R}^3$ 위에서의 복소계수 다항함수 벡터공간 $P_l(\mathbb{R}^3)$의 원소 $f(x, y, z)$ 를 표현하면 $$\tilde{f}(x, y, z) = \sum_{i&#43;j&#43;k=l} c_{ijk} x^i y^j z^k$$ 이를 구면좌표계 함수로 나타내면 $$f(r, \theta, \phi) = r^l Y^l(\theta, \phi)$$">
       <meta name="twitter:site" content="@getdoks">
 
     
@@ -85,13 +83,13 @@
      },
      {
        "@type": "ListItem",
-       "item": "http://localhost:1313/docs/reference/",
-       "name": "Reference",
+       "item": "http://localhost:1313/docs/guides/",
+       "name": "Notes",
        "position": 3
      },
      {
        "@type": "ListItem",
-       "name": "Example Reference",
+       "name": "Spherical Laplacian \u0026 Angular Momentum",
        "position": 4
      }
    ]
@@ -100,21 +98,18 @@
 
 
 
-
 <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js">
-  </script>
-  
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+
 </head>
 
   
@@ -164,27 +159,27 @@
   <ul class="list-unstyled">
 
   <li>
-    <details open>
+    <details open open>
       <summary>Notes</summary>
       <ul class="list-unstyled list-nested">
 
   <li>
+      <a href="/docs/guides/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
+  </li>
+
+  <li>
       <a href="/docs/guides/functional-derivative/">Functional Derivative</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/guides/spherical-laplacian-angular-momentum/">Spherical Laplacian &amp; Angular Momentum</a>
   </li>
       </ul>
     </details>
   </li>
 
   <li>
-    <details open>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li class="active" >
-      <a aria-current="page" href="/docs/reference/example-reference/">Example Reference</a>
-  </li>
-      </ul>
-    </details>
+      <a href="/docs/reference/">Reference</a>
   </li>
   </ul>
 </nav>
@@ -324,27 +319,27 @@
   <ul class="list-unstyled">
 
   <li>
-    <details open>
+    <details open open>
       <summary>Notes</summary>
       <ul class="list-unstyled list-nested">
 
   <li>
+      <a href="/docs/guides/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
+  </li>
+
+  <li>
       <a href="/docs/guides/functional-derivative/">Functional Derivative</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/guides/spherical-laplacian-angular-momentum/">Spherical Laplacian &amp; Angular Momentum</a>
   </li>
       </ul>
     </details>
   </li>
 
   <li>
-    <details open>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li class="active" >
-      <a aria-current="page" href="/docs/reference/example-reference/">Example Reference</a>
-  </li>
-      </ul>
-    </details>
+      <a href="/docs/reference/">Reference</a>
   </li>
   </ul>
 </nav>
@@ -358,15 +353,19 @@
   <h3>On this page</h3>
     <nav id="toc">
   <ul>
-    <li><a href="#further-reading">Further reading</a></li>
+    <li><a href="#1-tildefx-y-z--fr-theta-phi">1. $\tilde{f}(x, y, z)$ &amp; $f(r, \theta, \phi)$</a></li>
+    <li><a href="#2-yltheta-phi--fr-theta-phi">2. $Y^l(\theta, \phi)$ &amp; $f(r, \theta, \phi)$</a></li>
+    <li><a href="#3-harmonic-function">3. harmonic function</a></li>
+    <li><a href="#4-spherical-harmonics-vector-space-tildeh_l">4. spherical harmonics vector space $\tilde{H}_l$</a></li>
+    <li><a href="#5-delta_s2--mathbfl">5. $\Delta_{S^2}$ &amp; $\mathbf{L}$</a></li>
   </ul>
 </nav>
 </div>
 
 		</nav>
-		<main class="docs-content col-lg-11 col-xl-9">
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
 		
-			<h1>Example Reference</h1>
+			<h1>Spherical Laplacian &amp; Angular Momentum</h1>
 			
 			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
 				<details>
@@ -374,36 +373,73 @@
     <div class="page-links">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#further-reading">Further reading</a></li>
+    <li><a href="#1-tildefx-y-z--fr-theta-phi">1. $\tilde{f}(x, y, z)$ &amp; $f(r, \theta, \phi)$</a></li>
+    <li><a href="#2-yltheta-phi--fr-theta-phi">2. $Y^l(\theta, \phi)$ &amp; $f(r, \theta, \phi)$</a></li>
+    <li><a href="#3-harmonic-function">3. harmonic function</a></li>
+    <li><a href="#4-spherical-harmonics-vector-space-tildeh_l">4. spherical harmonics vector space $\tilde{H}_l$</a></li>
+    <li><a href="#5-delta_s2--mathbfl">5. $\Delta_{S^2}$ &amp; $\mathbf{L}$</a></li>
   </ul>
 </nav>
     </div>
   </details>
 
 			</nav>
-			<p>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</p>
-<h2 id="further-reading">Further reading<a href="#further-reading" class="anchor" aria-hidden="true">#</a> </h2>
-<ul>
-<li>Read <a href="https://diataxis.fr/reference/">about reference</a> in the Diátaxis framework</li>
-</ul>
+			<h2 id="1-tildefx-y-z--fr-theta-phi">1. $\tilde{f}(x, y, z)$ &amp; $f(r, \theta, \phi)$<a href="#1-tildefx-y-z--fr-theta-phi" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Degree $l$의 $\mathbb{R}^3$ 위에서의 복소계수 다항함수 벡터공간
+$P_l(\mathbb{R}^3)$의 원소 $f(x, y, z)$ 를 표현하면
+$$\tilde{f}(x, y, z) = \sum_{i+j+k=l} c_{ijk} x^i y^j z^k$$ 이를 구면좌표계
+함수로 나타내면 $$f(r, \theta, \phi) = r^l Y^l(\theta, \phi)$$</p>
+<h2 id="2-yltheta-phi--fr-theta-phi">2. $Y^l(\theta, \phi)$ &amp; $f(r, \theta, \phi)$<a href="#2-yltheta-phi--fr-theta-phi" class="anchor" aria-hidden="true">#</a> </h2>
+<p>$Y^l(\theta, \phi) = f(r=1, \theta, \phi)$이므로, $Y^l(\theta, \phi)$는
+함수 $f$를 단위구(unit sphere)의 표면으로 제한(restriction)하여 다룬
+함수로 생각할 수 있다.</p>
+<p>함수 $f$에 대해 함수 $Y^l$는 하나로 정해지고, 함수 $Y^l$에 대해 함수
+$f$가 하나로 정해지므로 $f$와 $Y^l$은 일대일 대응한다.</p>
+<h2 id="3-harmonic-function">3. harmonic function<a href="#3-harmonic-function" class="anchor" aria-hidden="true">#</a> </h2>
+<p>함수 $f$가 $\Delta f = 0$이면 degree $l$의 조화함수(harmonic
+function)이고, 이 또한 벡터공간 $H_l(\mathbb{R}^3)$을 이룬다.</p>
+<p>함수 $f$를 구면좌표계로 변환하여 Laplacian을 계산하면
+$$\Delta f = \frac{1}{r^2} \frac{\partial}{\partial r} ( r^2 \frac{\partial f}{\partial r} ) + \frac{1}{r^2 \sin \theta} \frac{\partial }{\partial \theta} ( \sin \theta \frac{\partial f }{\partial \theta} ) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2 f }{\partial \phi^2}$$
+이를 다시 정리하면
+$$\Delta f = \frac{\partial^2 f }{\partial r^2} + \frac{2}{r} \frac{\partial f}{\partial r} + \frac{1}{r^2} \Delta_{S^2} f$$
+여기서
+$$\Delta_{S^2} = \frac{\partial^2}{\partial \theta^2} + \cot \theta \frac{\partial}{\partial \theta} + \frac{1}{\sin^2 \theta} \frac{\partial^2}{\partial \phi^2}$$</p>
+<p>$f = r^l Y^l(\theta, \phi)$와 $\Delta f = 0$을 적용하면
+$$\Delta_{S^2} Y^l(\theta, \phi) = -l(l+1) Y^l(\theta, \phi)$$</p>
+<h2 id="4-spherical-harmonics-vector-space-tildeh_l">4. spherical harmonics vector space $\tilde{H}_l$<a href="#4-spherical-harmonics-vector-space-tildeh_l" class="anchor" aria-hidden="true">#</a> </h2>
+<p>$\Delta_{S^2}Y^l(\theta, \phi) = -l(l+1)Y^l(\theta, \phi)$을 만족하는
+모든 $Y^l(\theta, \phi)$ 함수들의 집합은 구면조화함수 집합으로 이 또한
+벡터공간을 형성하며, 이를 $\tilde{H}_l$이라 한다.</p>
+<p>$H_l(\mathbb{R}^3)$과 $\tilde{H}_l$은 일대일 대응(one-to-one
+correspondence)이며, 일대일 대응하는 벡터공간은 동형(isomorphism)이므로,
+두 벡터공간은 동형이다.</p>
+<h2 id="5-delta_s2--mathbfl">5. $\Delta_{S^2}$ &amp; $\mathbf{L}$<a href="#5-delta_s2--mathbfl" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Square integrable한 함수로 구성된 벡터공간에서의 선형연산자
+$\Delta_{S^2}$를 생각하면, $Y^l(\theta, \phi)$는 $\Delta_{S^2}$의
+고윳값이 $-l(l+1)$인 고유벡터(함수)이다.</p>
+<p>$\mathbf{L}^2 = -\hbar^2 \Delta_{S^2}$라 정의하면 $\mathbf{L}$은 각운동량
+연산자가 되고
+$$\mathbf{L}^2 Y^l_m(\theta, \phi) = \hbar^2 l(l+1) Y^l_m(\theta, \phi)$$
+이때, $m$은 $Y^l(\theta, \phi)$이 다음 조건을 하나 더 만족해야함을
+의미한다. $$L_z Y^l_m(\theta, \phi) = \hbar m Y^l_m(\theta, \phi)$$</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
 			<div class="page-nav d-flex flex-column flex-sm-row">
 	
-	<div class="card text-end w-100">
-			<div class="card-body d-flex justify-content-end">
-				<div class="d-flex flex-column">
-					<div class="text-body-secondary">Next</div>
-					<a href="/docs/guides/functional-derivative/" class="stretched-link text-reset text-decoration-none">Functional Derivative</a>
-				</div>
+	<div class="card w-100">
+			<div class="card-body d-flex">
 				<div class="d-flex flex-column justify-content-center">
-					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 						<path d="M5 12l14 0"></path>
-						<path d="M13 18l6 -6"></path>
-						<path d="M13 6l6 6"></path>
-					</svg>
+						<path d="M5 12l6 6"></path>
+						<path d="M5 12l6 -6"></path>
+				 	</svg>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Prev</div>
+					<a href="/docs/guides/functional-derivative/" class="stretched-link text-reset text-decoration-none">Functional Derivative</a>
 				</div>
 			</div>
 		</div>

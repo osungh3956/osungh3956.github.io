@@ -2,8 +2,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/guides/example-guide/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <loc>http://localhost:1313/docs/guides/directional-derivative-functional-derivative/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/guides/functional-derivative/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>http://localhost:1313/docs/guides/spherical-laplacian-angular-momentum/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>

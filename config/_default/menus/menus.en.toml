@@ -30,7 +30,8 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/guides/example-guide/"
+  url = "/docs/guides/functional-derivative/"
+# url = "/docs/guides/example-guide/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
