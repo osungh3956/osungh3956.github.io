@@ -100,21 +100,18 @@
 
 
 
-
 <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js">
-  </script>
-  
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+
 </head>
 
   
@@ -169,7 +166,15 @@
       <ul class="list-unstyled list-nested">
 
   <li>
-      <a href="/docs/guides/functional-derivative/">Functional Derivative</a>
+      <a href="/docs/notes/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
+  </li>
+
+  <li>
+      <a href="/docs/notes/functional-derivative/">Functional Derivative</a>
+  </li>
+
+  <li>
+      <a href="/docs/notes/spherical-laplacian-angular-momentum/">Spherical Laplacian &amp; Angular Momentum</a>
   </li>
       </ul>
     </details>
@@ -219,7 +224,7 @@
       
       <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
         <ul class="navbar-nav flex-grow-1"><li class="nav-item">
-                <a class="nav-link active" href="http://localhost:1313/docs/guides/functional-derivative/" aria-current="true">Docs</a>
+                <a class="nav-link active" href="http://localhost:1313/docs/" aria-current="true">Docs</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link" href="http://localhost:1313/blog/">Blog</a>
@@ -329,7 +334,15 @@
       <ul class="list-unstyled list-nested">
 
   <li>
-      <a href="/docs/guides/functional-derivative/">Functional Derivative</a>
+      <a href="/docs/notes/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
+  </li>
+
+  <li>
+      <a href="/docs/notes/functional-derivative/">Functional Derivative</a>
+  </li>
+
+  <li>
+      <a href="/docs/notes/spherical-laplacian-angular-momentum/">Spherical Laplacian &amp; Angular Momentum</a>
   </li>
       </ul>
     </details>
@@ -395,7 +408,7 @@
 			<div class="card-body d-flex justify-content-end">
 				<div class="d-flex flex-column">
 					<div class="text-body-secondary">Next</div>
-					<a href="/docs/guides/functional-derivative/" class="stretched-link text-reset text-decoration-none">Functional Derivative</a>
+					<a href="/docs/notes/directional-derivative-functional-derivative/" class="stretched-link text-reset text-decoration-none">Directional Derivative &amp; Functional Derivative</a>
 				</div>
 				<div class="d-flex flex-column justify-content-center">
 					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

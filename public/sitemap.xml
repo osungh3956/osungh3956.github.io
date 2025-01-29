@@ -12,13 +12,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/guides/</loc>
+    <loc>http://localhost:1313/docs/notes/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/docs/reference/</loc>
     <lastmod>2023-09-07T16:12:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/docs/reference/example-reference/</loc>
+    <lastmod>2023-09-07T16:13:18+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -45,15 +50,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/guides/directional-derivative-functional-derivative/</loc>
+    <loc>http://localhost:1313/docs/notes/directional-derivative-functional-derivative/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/guides/functional-derivative/</loc>
+    <loc>http://localhost:1313/docs/notes/functional-derivative/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/guides/spherical-laplacian-angular-momentum/</loc>
+    <loc>http://localhost:1313/docs/notes/spherical-laplacian-angular-momentum/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

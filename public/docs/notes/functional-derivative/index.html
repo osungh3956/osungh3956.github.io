@@ -14,12 +14,12 @@
 
 <link rel="stylesheet" href="/main.dc2f5458ab98613899cfadbb551e078821f7645691e4dfc57bb48d7697fe7be6885b7aea93d9ab15c53a25e38128c09220a1b4dcab934e04d1a7b374499b9872.css" integrity="sha512-3C9UWKuYYTiZz627VR4HiCH3ZFaR5N/Fe7SNdpf&#43;e&#43;aIW3rqk9mrFcU6JeOBKMCSIKG03KuTTgTRp7N0SZuYcg==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/reference/">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/notes/functional-derivative/">
 
-  <link rel="canonical" href="http://localhost:1313/docs/reference/">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/reference/index.xml" title="Reference | My Docs"><link rel="sitemap" type="application/xml" href="http://localhost:1313/docs/reference/sitemap.xml" title="Reference | My Docs">
+  <link rel="canonical" href="http://localhost:1313/docs/notes/functional-derivative/">
 
-<title>Reference  |  My Docs</title>
+
+<title>Functional Derivative  |  My Docs</title>
 <meta name="description" content="Congrats on setting up a new Doks project!">
 
     
@@ -47,20 +47,22 @@
       >
 <link rel="manifest" href="/manifest.webmanifest">
 
-<meta property="og:url" content="http://localhost:1313/docs/reference/">
+<meta property="og:url" content="http://localhost:1313/docs/notes/functional-derivative/">
   <meta property="og:site_name" content="My Docs">
-  <meta property="og:title" content="Reference">
-  <meta property="og:description" content="Congrats on setting up a new Doks project!">
+  <meta property="og:title" content="Functional Derivative">
+  <meta property="og:description" content="The goal of this section is to discover a suitable definition of a functional derivative, such that we can take the derivative of a functional and still have the same rules of differentiation as normal calculus. For example, we wish to find a definition for $\frac{\delta J}{\delta y}$, where $J[y(x)]$ is a functional of $y(x)$ such that things like $$\frac{\delta}{\delta y} J^2 = 2J \frac{\delta J}{\delta y}$$ are still true.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
     <meta property="og:image" content="http://localhost:1313/cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/cover.png">
-  <meta name="twitter:title" content="Reference">
-  <meta name="twitter:description" content="Congrats on setting up a new Doks project!">
+  <meta name="twitter:title" content="Functional Derivative">
+  <meta name="twitter:description" content="The goal of this section is to discover a suitable definition of a functional derivative, such that we can take the derivative of a functional and still have the same rules of differentiation as normal calculus. For example, we wish to find a definition for $\frac{\delta J}{\delta y}$, where $J[y(x)]$ is a functional of $y(x)$ such that things like $$\frac{\delta}{\delta y} J^2 = 2J \frac{\delta J}{\delta y}$$ are still true.">
       <meta name="twitter:site" content="@getdoks">
 
+    
     
     <script type="application/ld+json">
   {
@@ -81,8 +83,14 @@
      },
      {
        "@type": "ListItem",
-       "name": "Reference",
+       "item": "http://localhost:1313/docs/notes/",
+       "name": "Notes",
        "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Functional Derivative",
+       "position": 4
      }
    ]
  }
@@ -105,7 +113,7 @@
 </head>
 
   
-  <body class="list section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="sticky-top">
 <header class="navbar navbar-expand-lg">
   <div class="container-lg">
@@ -151,7 +159,7 @@
   <ul class="list-unstyled">
 
   <li>
-    <details open>
+    <details open open>
       <summary>Notes</summary>
       <ul class="list-unstyled list-nested">
 
@@ -159,8 +167,8 @@
       <a href="/docs/notes/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
   </li>
 
-  <li>
-      <a href="/docs/notes/functional-derivative/">Functional Derivative</a>
+  <li class="active" >
+      <a aria-current="page" href="/docs/notes/functional-derivative/">Functional Derivative</a>
   </li>
 
   <li>
@@ -170,8 +178,8 @@
     </details>
   </li>
 
-  <li class="active" >
-    <details open>
+  <li>
+    <details>
       <summary>Reference</summary>
       <ul class="list-unstyled list-nested">
 
@@ -310,32 +318,200 @@
       <div class="content">
       
         
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
-      <h1 class="text-center">Reference</h1>
-      
-			<div class="card-list">
-				
-				
-					
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/reference/example-reference/">Example Reference &rarr;</a>
-							</div>
-						</div>
-					
-				
-					
-				
-					
-				
-			</div>
-    </article>
-  </div>
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>Notes</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/notes/directional-derivative-functional-derivative/">Directional Derivative &amp; Functional Derivative</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/notes/functional-derivative/">Functional Derivative</a>
+  </li>
+
+  <li>
+      <a href="/docs/notes/spherical-laplacian-angular-momentum/">Spherical Laplacian &amp; Angular Momentum</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary>Reference</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/reference/example-reference/">Example Reference</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+		</div>
+		
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  <h3>On this page</h3>
+    <nav id="toc">
+  <ul>
+    <li><a href="#definitions">Definitions</a></li>
+    <li><a href="#functional">- Functional</a></li>
+    <li><a href="#variation">- Variation</a></li>
+    <li><a href="#functional-derivative">Functional Derivative</a></li>
+    <li><a href="#lagrangian-mechanics">Lagrangian Mechanics</a></li>
+  </ul>
+</nav>
 </div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		
+			<h1>Functional Derivative</h1>
+			
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				<details>
+    <summary>On this page</summary>
+    <div class="page-links">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#definitions">Definitions</a></li>
+    <li><a href="#functional">- Functional</a></li>
+    <li><a href="#variation">- Variation</a></li>
+    <li><a href="#functional-derivative">Functional Derivative</a></li>
+    <li><a href="#lagrangian-mechanics">Lagrangian Mechanics</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+
+			</nav>
+			<p>The goal of this section is to discover a suitable definition of a
+<em>functional derivative</em>, such that we can take the derivative of a
+functional and still have the same rules of differentiation as normal
+calculus. For example, we wish to find a definition for
+$\frac{\delta J}{\delta y}$, where $J[y(x)]$ is a functional of $y(x)$
+such that things like
+$$\frac{\delta}{\delta y} J^2 = 2J \frac{\delta J}{\delta y}$$ are still
+true.</p>
+<h2 id="definitions" class="unnumbered">Definitions<a href="#definitions" class="anchor" aria-hidden="true">#</a> </h2>
+<h2 id="functional" class="unnumbered">- Functional<a href="#functional" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Stone&rsquo;s definition of local functional where $f$ is a multivariable
+function:
+$$J[y] = \int_{x_1}^{x_2} f(x, y(x), y&rsquo;(x), y&rsquo;&rsquo;(x), \ldots, y^{(n)}(x)) \ dx = \int_{x_1}^{x_2} f \ dx \tag{1}$$</p>
+<p>Notice the functional $J$ &ldquo;eats&rdquo; an entire function $y$, which is
+defined using its local values $y(x)$, $y&rsquo;(x)$, etc., and spits out a
+number through integration. In short, a functional is just a number that
+depends on an input function.</p>
+<h2 id="variation" class="unnumbered">- Variation<a href="#variation" class="anchor" aria-hidden="true">#</a> </h2>
+<p>A variation of the functional is the amount the functional changes when
+the input function is changed by a little bit. Suppose we let
+$y(x) \to y(x) + \delta y(x)$, then since $\frac{d}{dx}$ is linear
+$$y&rsquo;(x) \to y&rsquo;(x) + \frac{d}{dx} \delta y(x) = y&rsquo;(x) + \delta y&rsquo;(x),$$
+$$y&rsquo;&rsquo;(x) \to y&rsquo;&rsquo;(x) + \frac{d^2}{dx^2} \delta y(x) = y&rsquo;&rsquo;(x) + \delta y&rsquo;&rsquo;(x),$$
+$$\vdots$$
+$$y^{(n)}(x) \to y^{(n)}(x) + \frac{d^n}{dx^n} \delta y(x) = y^{(n)}(x) + \delta y^{(n)}(x)\tag{2}$$</p>
+<p>Thus the integrand of the new output $J[y + \delta y]$ can
+be expanded to first order using Taylor expansion of a multivariable
+function around the old input $y$
+$$J[y + \delta y] = \int_{x_1}^{x_2} f(x, y + \delta y, y&rsquo; + \delta y&rsquo;, \ldots, y^{(n)} + \delta y^{(n)}) \ dx$$
+Expanding
+$$J[y + \delta y] = \int_{x_1}^{x_2} f + \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y&rsquo;} \delta y&rsquo; + \cdots + \frac{\partial^{(n)} f}{\partial y^{(n)}} \delta y^{(n)} \ dx\tag{3}$$</p>
+<p>The variation of the functional is thus, by definition, the new output
+minus the old output taken to first order
+$$\delta J = J[y + \delta y] - J[y]$$</p>
+<p>Simplifying
+$$\delta J = \int_{x_1}^{x_2} \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y&rsquo;} \delta y&rsquo; + \cdots + \frac{\partial^{(n)} f}{\partial y^{(n)}} \delta y^{(n)} \ dx\tag{4}$$
+Using integration by parts, we move all $\frac{d}{dx}$ on $\delta y$ to $f$</p>
+<p>$$\delta J = \frac{\partial f}{\partial y&rsquo;} \delta y(x)\vert_{x_1}^{x_2} +  \frac{\partial f}{\partial y&rsquo;&rsquo;} \delta y&rsquo;(x)\vert_{x_1}^{x_2} - \frac{d}{dx}\frac{\partial f}{\partial y&rsquo;&rsquo;} \delta y(x) \vert_{x_1}^{x_2} + \cdots + (-1)^{n-1}\frac{d^{n-1}}{dx^{n-1}} \frac{\partial f}{\partial y^{(n)}} \delta y(x) \vert_{x_1}^{x_2}$$</p>
+<p>$$+ \int_{x_1}^{x_2} \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y&rsquo;} + \frac{d^2}{dx^2} \frac{\partial f}{\partial y&rsquo;&rsquo;} - \cdots + (-1)^n\frac{d^n}{dx^n} \frac{\partial f}{\partial y^{(n)}} \right) \delta y(x) \ dx\tag{5}$$</p>
+<h2 id="functional-derivative" class="unnumbered">Functional Derivative<a href="#functional-derivative" class="anchor" aria-hidden="true">#</a> </h2>
+<p>For a normal multivariable function $f(x_1, x_2, \ldots, x_n)$, we have
+$$df = \sum_{i=1}^n \frac{\partial f}{\partial x_i} dx_i\tag{6}$$ We
+wish to rewrite the variation $\delta J$ in a similar form
+$$\delta J = \int_{x_1}^{x_2} \frac{\delta J}{\delta y}(x) \delta y(x) \ dx\tag{7}$$
+Under fixed-end
+conditions$(\delta y^{(n)}(x_1)= \delta y^{(n)}(x_2)=0)$, comparing
+terms gives
+$$\frac{\delta J}{\delta y} = \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y&rsquo;} + \frac{d^2}{dx^2} \frac{\partial f}{\partial y&rsquo;&rsquo;} - \cdots + (-1)^n\frac{d^n}{dx^n} \frac{\partial f}{\partial y^{(n)}}\tag{8}$$
+As long as $\delta J$ can be written as (7), we will have our nice rules
+of differentiation. For example
+$$\delta J^2 \equiv (J + \delta J)^2 - J^2 = 2J\delta J + O((\delta J)^2)$$
+$$= \int_{x_1}^{x_2} dx \ 2J \frac{\delta J}{\delta y}(x) \delta y(x) \implies$$
+$$\frac{\delta J^2}{\delta y} = 2J \frac{\delta J}{\delta y} \tag{9}$$</p>
+<p>A word of caution: This definition of functional derivative is nice, but
+as $f$ involves higher derivatives of $y$, the fixed-end condition
+becomes harsher and the range of $y$ this derivative applies to quickly
+diminishes. Therefore it is sometimes more useful to make variations by
+hand according to (5).</p>
+<h2 id="lagrangian-mechanics" class="unnumbered">Lagrangian Mechanics<a href="#lagrangian-mechanics" class="anchor" aria-hidden="true">#</a> </h2>
+<p>When the integrand of the functional depends only on $y$ and $y&rsquo;$
+($f(y, y&rsquo;)$), the functional derivative simplifies to
+$$\frac{\delta J}{\delta y} = \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y&rsquo;}\tag{10}$$
+This form is foundational in Lagrangian mechanics. For a typical
+classical mechanics problem, we minimize the action $S$, which is a
+functional of a configuration function $q(t)$
+$$S[q] = \int_{t_1}^{t_2} L(q(t), \dot{q}(t)) \ dt\tag{11}$$ Setting
+the derivative to zero gives the Euler-Lagrange equation
+$$\frac{\delta S}{\delta q} = 0 \implies \frac{\partial L}{\partial q} = \frac{d}{dt} \frac{\partial L}{\partial \dot{q}}\tag{12}$$</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="page-nav d-flex flex-column flex-sm-row">
+	
+	<div class="card w-100">
+			<div class="card-body d-flex">
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M5 12l6 6"></path>
+						<path d="M5 12l6 -6"></path>
+				 	</svg>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Prev</div>
+					<a href="/docs/notes/directional-derivative-functional-derivative/" class="stretched-link text-reset text-decoration-none">Directional Derivative &amp; Functional Derivative</a>
+				</div>
+			</div>
+		</div>
+	<div class="m-2"></div>
+	<div class="card text-end w-100">
+			<div class="card-body d-flex justify-content-end">
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Next</div>
+					<a href="/docs/notes/spherical-laplacian-angular-momentum/" class="stretched-link text-reset text-decoration-none">Spherical Laplacian &amp; Angular Momentum</a>
+				</div>
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M13 18l6 -6"></path>
+						<path d="M13 6l6 6"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</main>
+		
+	</div>
 
       
       </div>

@@ -228,18 +228,11 @@
       "wrap"
     ],
     "ids": [
-      "1-fx-y-z--tildefr-theta-phi",
-      "1-p_lmathbbr3-벡터공간의-원소-fx-y-z와-구면좌표계-표현",
       "1-tildefx-y-z--fr-theta-phi",
       "2-yltheta-phi--fr-theta-phi",
-      "2-함수-yltheta-phi와-fr-theta-phi의-관계",
       "3-harmonic-function",
-      "3-조화함수harmonic-function",
       "4-spherical-harmonics-vector-space-tildeh_l",
-      "4-구면조화함수spherical-harmonics벡터공간-tildeh_l",
       "5-delta_s2--mathbfl",
-      "5-delta_s2-과-각운동량-연산자-mathbfl",
-      "5-delta_s2-과-각운동량-연산자-vbl",
       "TableOfContents",
       "buttonColorMode",
       "definition-of-directional-derivative",
@@ -264,8 +257,7 @@
       "searchToggleMobile",
       "socialMenu",
       "toc",
-      "variation",
-      "구면spherical-laplacian과-각운동량angular-momentum"
+      "variation"
     ]
   }
 }
