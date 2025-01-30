@@ -49,7 +49,7 @@
       <link>http://localhost:1313/docs/notes/spherical-laplacian-angular-momentum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/notes/spherical-laplacian-angular-momentum/</guid>
-      <description>&lt;h2 id=&#34;1-tildefx-y-z--fr-theta-phi&#34;&gt;1. $\tilde{f}(x, y, z)$ &amp;amp; $f(r, \theta, \phi)$&lt;/h2&gt;&#xA;&lt;p&gt;Degree $l$의 $\mathbb{R}^3$ 위에서의 복소계수 다항함수 벡터공간&#xA;$P_l(\mathbb{R}^3)$의 원소 $f(x, y, z)$ 를 표현하면&#xA;$$\tilde{f}(x, y, z) = \sum_{i+j+k=l} c_{ijk} x^i y^j z^k$$ 이를 구면좌표계&#xA;함수로 나타내면 $$f(r, \theta, \phi) = r^l Y^l(\theta, \phi)$$&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;1-tildefx-y-z--fr-theta-phi&#34;&gt;1. $\tilde{f}(x, y, z)$ &amp;amp; $f(r, \theta, \phi)$&lt;/h2&gt;&#xA;&lt;p&gt;The space of complex-coefficient polynomial functions of degree $l$ in $ℝ^3$, denoted as $P_l(ℝ^3)$, contains elements $f(x, y, z)$ which can be expressed as:&#xA;$$\tilde{f}(x, y, z) = \sum_{i+j+k=l} c_{ijk} x^i y^j z^k$$&#xA;Rewriting this function in spherical coordinates gives:&#xA;$$f(r, \theta, \phi) = r^l Y^l(\theta, \phi)$$&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
