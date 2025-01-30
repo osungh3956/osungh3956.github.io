@@ -6,9 +6,13 @@
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     },
     options: {
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'h1', 'h2', 'h3', 'h4']
+      ignoreTags: ['script', 'noscript', 'style', 'textarea'],  // 제목 태그 제거
+      processHtmlClass: "mathjax-process",
+      processEscapes: true
     },
     svg: { fontCache: 'global' }
   };
 </script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
 
