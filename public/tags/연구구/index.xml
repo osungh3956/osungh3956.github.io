@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>연구구 on My Docs</title>
+    <link>http://localhost:1313/tags/%EC%97%B0%EA%B5%AC%EA%B5%AC/</link>
+    <description>Recent content in 연구구 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%EC%97%B0%EA%B5%AC%EA%B5%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 QFT 없이 중성미자 진동 연구 시작하기</title>
+      <link>http://localhost:1313/blog/qft-%EC%97%86%EC%9D%B4-%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/qft-%EC%97%86%EC%9D%B4-%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;h2 id=&#34;1-qft가-필요-없는-이유&#34;&gt;1. QFT가 필요 없는 이유&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;중성미자 진동의 핵심:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;섭동론 (Sakurai 5장)&lt;/p&gt;&#xA;&lt;p&gt;입자물리학 기초 (Griffiths 2장, 9장)&lt;/p&gt;&#xA;&lt;p&gt;PMNS 행렬과 진동 공식&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

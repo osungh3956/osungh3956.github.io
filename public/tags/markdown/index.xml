@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on My Docs</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 중성미자 연구 계획</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC-%EA%B3%84%ED%9A%8D/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC-%EA%B3%84%ED%9A%8D/</guid>
+      <description>&lt;h2 id=&#34;1-기초-이론-강화-단계-612개월&#34;&gt;1. 기초 이론 강화 단계 (6~12개월)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;양자역학 심화: 사쿠라이 5장(Approximation Methods) 집중 공부&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Perturbation theory → 중성미자 진동의 미세효과 이해에 필수&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

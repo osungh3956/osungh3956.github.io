@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>로드맵 on My Docs</title>
+    <link>http://localhost:1313/tags/%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+    <description>Recent content in 로드맵 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%EB%A1%9C%EB%93%9C%EB%A7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 중성미자 연구자 성장 로드맵</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</guid>
+      <description>&lt;h2 id=&#34;1-2025년-상반기-6개월--이론-실험-접점-강화&#34;&gt;1. 2025년 상반기 (6개월) : 이론-실험 접점 강화&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;핵심 목표: 대학원 진학 전 독립연구 역량 확보&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;실행 계획:&#xA;▸ 2월: PMNS 행렬의 CP 위상(δ_CP) 최신 측정값 분석 → NuFIT 2025 데이터로 Jupyter Notebook 시각화&#xA;▸ 3월: DUNE 실험의 검출기 설계 원리 연구 → arXiv:1508.06654 리뷰&#xA;▸ 4월: GLoBES 시뮬레이션으로 가상 실험 설계 → &amp;ldquo;3-flavor 진동에서 matter density 효과&amp;rdquo; 시뮬레이션&#xA;▸ 5월: 국내외 대학원 서치 완료 → HEP 그룹 매핑 활용&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 연구자 성장 로드맵 2</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5-2/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5-2/</guid>
+      <description>&lt;h2 id=&#34;0-현재-진단&#34;&gt;0. 현재 진단&lt;/h2&gt;&#xA;&lt;p&gt;현재 위치: 사쿠라이 5장(근사법) 학습 중 → 중성미자 진동 연구의 0.8km 지점(목표까지 199.2km 남음)&#xA;주요 장애물: 이론-실험 연결 부재, 학습 고립감, 연령에 대한 사회적 편견&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>동기부여 on My Docs</title>
+    <link>http://localhost:1313/tags/%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC/</link>
+    <description>Recent content in 동기부여 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>학습동기부여 시스템 구축</title>
+      <link>http://localhost:1313/blog/%ED%95%99%EC%8A%B5%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%ED%95%99%EC%8A%B5%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95/</guid>
+      <description>&lt;h2 id=&#34;1-3단계-루틴-설계&#34;&gt;1. 3단계 루틴 설계&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;아침 90분(이론): 사쿠라이 5장 → [1페이지 요약+수식 재유도] 필기&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;오후 60분(응용): Griffiths 문제풀이 → 오류는 PMNS 행렬 실험값과 연결 분석&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

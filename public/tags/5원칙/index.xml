@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5원칙 on My Docs</title>
+    <link>http://localhost:1313/tags/5%EC%9B%90%EC%B9%99/</link>
+    <description>Recent content in 5원칙 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/5%EC%9B%90%EC%B9%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 전략적 교재 활용 5원칙</title>
+      <link>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%EA%B5%90%EC%9E%AC-%ED%99%9C%EC%9A%A9-5%EC%9B%90%EC%B9%99/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%EA%B5%90%EC%9E%AC-%ED%99%9C%EC%9A%A9-5%EC%9B%90%EC%B9%99/</guid>
+      <description>&lt;h2 id=&#34;1-사쿠라이-modern-quantum-mechanics&#34;&gt;1. 사쿠라이 &amp;ldquo;Modern Quantum Mechanics&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;필수 장: 5장(근사법) + 3장(각운동량) → 진동의 수학적 구조 이해&lt;/p&gt;&#xA;&lt;p&gt;스킵 가능: 2장(슈뢰딩거 묘사) → Griffiths로 이미 학습했다면 생략&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

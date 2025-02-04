@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My Docs</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 QFT 없이 중성미자 진동 연구 시작하기</title>
+      <link>http://localhost:1313/blog/qft-%EC%97%86%EC%9D%B4-%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/qft-%EC%97%86%EC%9D%B4-%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;h2 id=&#34;1-qft가-필요-없는-이유&#34;&gt;1. QFT가 필요 없는 이유&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;중성미자 진동의 핵심:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;섭동론 (Sakurai 5장)&lt;/p&gt;&#xA;&lt;p&gt;입자물리학 기초 (Griffiths 2장, 9장)&lt;/p&gt;&#xA;&lt;p&gt;PMNS 행렬과 진동 공식&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 전략적 교재 활용 5원칙</title>
+      <link>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%EA%B5%90%EC%9E%AC-%ED%99%9C%EC%9A%A9-5%EC%9B%90%EC%B9%99/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%EA%B5%90%EC%9E%AC-%ED%99%9C%EC%9A%A9-5%EC%9B%90%EC%B9%99/</guid>
+      <description>&lt;h2 id=&#34;1-사쿠라이-modern-quantum-mechanics&#34;&gt;1. 사쿠라이 &amp;ldquo;Modern Quantum Mechanics&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;필수 장: 5장(근사법) + 3장(각운동량) → 진동의 수학적 구조 이해&lt;/p&gt;&#xA;&lt;p&gt;스킵 가능: 2장(슈뢰딩거 묘사) → Griffiths로 이미 학습했다면 생략&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 전략적 학습의 3단계 도약</title>
+      <link>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%ED%95%99%EC%8A%B5%EC%9D%98-3%EB%8B%A8%EA%B3%84-%EB%8F%84%EC%95%BD/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%ED%95%99%EC%8A%B5%EC%9D%98-3%EB%8B%A8%EA%B3%84-%EB%8F%84%EC%95%BD/</guid>
+      <description>&lt;h2 id=&#34;1단계-핵심-개념-압축-2개월&#34;&gt;1단계: 핵심 개념 압축 (2개월)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;목표 : 중성미자 진동 연구에 필요한 최소 지식 완성&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;전략 :&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;주차&lt;/th&gt;&#xA;          &lt;th&gt;Sakurai 5장 핵심&lt;/th&gt;&#xA;          &lt;th&gt;Griffiths 연동&lt;/th&gt;&#xA;          &lt;th&gt;실전 적용&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;섭동론 1차&lt;/td&gt;&#xA;          &lt;td&gt;2.4절 (중성미자 역사)&lt;/td&gt;&#xA;          &lt;td&gt;태양 중성미자 문제 설명&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;Degenerate 섭동&lt;/td&gt;&#xA;          &lt;td&gt;9.2절 (약상호작용)&lt;/td&gt;&#xA;          &lt;td&gt;풍속계 예제로 SU(2) 군 계산&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;변분법&lt;/td&gt;&#xA;          &lt;td&gt;2.5절 (경찰중성미자)&lt;/td&gt;&#xA;          &lt;td&gt;헬륨 원자 기저상태 에너지 추정&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;WKB 근사&lt;/td&gt;&#xA;          &lt;td&gt;부록 B (차원 분석)&lt;/td&gt;&#xA;          &lt;td&gt;중성미자 진동 길이 차원 검증&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;성과 측정:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;매주 금요일 Physics Forums에 학습 내용 요약 포스트&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 연구 계획</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC-%EA%B3%84%ED%9A%8D/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC-%EA%B3%84%ED%9A%8D/</guid>
+      <description>&lt;h2 id=&#34;1-기초-이론-강화-단계-612개월&#34;&gt;1. 기초 이론 강화 단계 (6~12개월)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;양자역학 심화: 사쿠라이 5장(Approximation Methods) 집중 공부&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Perturbation theory → 중성미자 진동의 미세효과 이해에 필수&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 연구를 위한 이론학습 계획</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9D%B4%EB%A1%A0%ED%95%99%EC%8A%B5-%EA%B3%84%ED%9A%8D/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9D%B4%EB%A1%A0%ED%95%99%EC%8A%B5-%EA%B3%84%ED%9A%8D/</guid>
+      <description>&lt;h2 id=&#34;1-양자역학-기반-재정립-46개월&#34;&gt;1. 양자역학 기반 재정립 (4~6개월)&lt;/h2&gt;&#xA;&lt;p&gt;📚 사쿠라이 5장 집중 공략 전략&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;핵심 포인트 :&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A. 섭동이론 → 진동의 미세 구조 이해&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 연구자 성장 로드맵</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</guid>
+      <description>&lt;h2 id=&#34;1-2025년-상반기-6개월--이론-실험-접점-강화&#34;&gt;1. 2025년 상반기 (6개월) : 이론-실험 접점 강화&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;핵심 목표: 대학원 진학 전 독립연구 역량 확보&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;실행 계획:&#xA;▸ 2월: PMNS 행렬의 CP 위상(δ_CP) 최신 측정값 분석 → NuFIT 2025 데이터로 Jupyter Notebook 시각화&#xA;▸ 3월: DUNE 실험의 검출기 설계 원리 연구 → arXiv:1508.06654 리뷰&#xA;▸ 4월: GLoBES 시뮬레이션으로 가상 실험 설계 → &amp;ldquo;3-flavor 진동에서 matter density 효과&amp;rdquo; 시뮬레이션&#xA;▸ 5월: 국내외 대학원 서치 완료 → HEP 그룹 매핑 활용&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 연구자 성장 로드맵 2</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5-2/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%84%B1%EC%9E%A5-%EB%A1%9C%EB%93%9C%EB%A7%B5-2/</guid>
+      <description>&lt;h2 id=&#34;0-현재-진단&#34;&gt;0. 현재 진단&lt;/h2&gt;&#xA;&lt;p&gt;현재 위치: 사쿠라이 5장(근사법) 학습 중 → 중성미자 진동 연구의 0.8km 지점(목표까지 199.2km 남음)&#xA;주요 장애물: 이론-실험 연결 부재, 학습 고립감, 연령에 대한 사회적 편견&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 진동 연구를 위한 전략</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%A0%84%EB%9E%B5/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99-%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%A0%84%EB%9E%B5/</guid>
+      <description>&lt;h2 id=&#34;1-초기-목표-설정-6개월&#34;&gt;1. 초기 목표 설정 (6개월)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;핵심 질문:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&amp;ldquo;중성미자 진동이 표준모형을 넘어서는 증거는 무엇인가?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;진동 데이터로부터 새로운 물리학의 단서를 어떻게 추출할 수 있는가?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 진동연구를 위한 교재학습 로드맵</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B5%90%EC%9E%AC%ED%95%99%EC%8A%B5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B5%90%EC%9E%AC%ED%95%99%EC%8A%B5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</guid>
+      <description>&lt;h2 id=&#34;1단계-기초-체력-다지기-3개월&#34;&gt;1단계: 기초 체력 다지기 (3개월)&lt;/h2&gt;&#xA;&lt;p&gt;양자역학 집중 공략&lt;/p&gt;&#xA;&lt;p&gt;Sakurai 5장 (섭동론): 매일 2시간 → 핵심 문제만 선별&lt;/p&gt;&#xA;&lt;p&gt;문제 5.1 (Non-degenerate 섭동) → 중성미자 2-flavor 진동에 적용&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>학습동기부여 시스템 구축</title>
+      <link>http://localhost:1313/blog/%ED%95%99%EC%8A%B5%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%ED%95%99%EC%8A%B5%EB%8F%99%EA%B8%B0%EB%B6%80%EC%97%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95/</guid>
+      <description>&lt;h2 id=&#34;1-3단계-루틴-설계&#34;&gt;1. 3단계 루틴 설계&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;아침 90분(이론): 사쿠라이 5장 → [1페이지 요약+수식 재유도] 필기&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;오후 60분(응용): Griffiths 문제풀이 → 오류는 PMNS 행렬 실험값과 연결 분석&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>학습 on My Docs</title>
+    <link>http://localhost:1313/tags/%ED%95%99%EC%8A%B5/</link>
+    <description>Recent content in 학습 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%ED%95%99%EC%8A%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 전략적 학습의 3단계 도약</title>
+      <link>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%ED%95%99%EC%8A%B5%EC%9D%98-3%EB%8B%A8%EA%B3%84-%EB%8F%84%EC%95%BD/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A0%84%EB%9E%B5%EC%A0%81-%ED%95%99%EC%8A%B5%EC%9D%98-3%EB%8B%A8%EA%B3%84-%EB%8F%84%EC%95%BD/</guid>
+      <description>&lt;h2 id=&#34;1단계-핵심-개념-압축-2개월&#34;&gt;1단계: 핵심 개념 압축 (2개월)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;목표 : 중성미자 진동 연구에 필요한 최소 지식 완성&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;전략 :&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;주차&lt;/th&gt;&#xA;          &lt;th&gt;Sakurai 5장 핵심&lt;/th&gt;&#xA;          &lt;th&gt;Griffiths 연동&lt;/th&gt;&#xA;          &lt;th&gt;실전 적용&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;섭동론 1차&lt;/td&gt;&#xA;          &lt;td&gt;2.4절 (중성미자 역사)&lt;/td&gt;&#xA;          &lt;td&gt;태양 중성미자 문제 설명&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;Degenerate 섭동&lt;/td&gt;&#xA;          &lt;td&gt;9.2절 (약상호작용)&lt;/td&gt;&#xA;          &lt;td&gt;풍속계 예제로 SU(2) 군 계산&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;변분법&lt;/td&gt;&#xA;          &lt;td&gt;2.5절 (경찰중성미자)&lt;/td&gt;&#xA;          &lt;td&gt;헬륨 원자 기저상태 에너지 추정&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;WKB 근사&lt;/td&gt;&#xA;          &lt;td&gt;부록 B (차원 분석)&lt;/td&gt;&#xA;          &lt;td&gt;중성미자 진동 길이 차원 검증&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;성과 측정:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;매주 금요일 Physics Forums에 학습 내용 요약 포스트&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🚀 중성미자 진동연구를 위한 교재학습 로드맵</title>
+      <link>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B5%90%EC%9E%AC%ED%95%99%EC%8A%B5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EC%A4%91%EC%84%B1%EB%AF%B8%EC%9E%90-%EC%A7%84%EB%8F%99%EC%97%B0%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B5%90%EC%9E%AC%ED%95%99%EC%8A%B5-%EB%A1%9C%EB%93%9C%EB%A7%B5/</guid>
+      <description>&lt;h2 id=&#34;1단계-기초-체력-다지기-3개월&#34;&gt;1단계: 기초 체력 다지기 (3개월)&lt;/h2&gt;&#xA;&lt;p&gt;양자역학 집중 공략&lt;/p&gt;&#xA;&lt;p&gt;Sakurai 5장 (섭동론): 매일 2시간 → 핵심 문제만 선별&lt;/p&gt;&#xA;&lt;p&gt;문제 5.1 (Non-degenerate 섭동) → 중성미자 2-flavor 진동에 적용&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
