@@ -5,6 +5,9 @@ on:
     branches:
       - main  # 또는 master 브랜치를 사용하는 경우 master로 설정
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
