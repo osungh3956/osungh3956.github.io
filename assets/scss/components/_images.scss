@@ -1,0 +1,23 @@
+// 이미지 중앙 정렬을 위한 CSS
+.figure {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  .figure-img {
+    margin: 0 auto; // 좌우 마진을 auto로 설정하여 중앙 정렬
+    max-width: 100%;
+  }
+}
+
+// 카드 이미지 중앙 정렬
+.card-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}

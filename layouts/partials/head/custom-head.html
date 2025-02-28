@@ -1,1 +1,84 @@
-<!-- Custom head -->
+<script>
+  MathJax = {
+    loader: {
+      load: ['[tex]/physics', '[tex]/mhchem', '[tex]/boldsymbol', '[tex]/cases', '[tex]/cancel', '[tex]/color', '[tex]/colortbl', '[tex]/colorv2']
+    },
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      processRefs: true,
+      // 매크로 처리 제한 극대화
+      maxMacros: 1000,
+      maxBuffer: 5000,
+      maxExpand: 1000,
+      macros: {
+        // 기본 집합 매크로
+        RR: "{\\mathbb{R}}",
+        CC: "{\\mathbb{C}}",
+        ZZ: "{\\mathbb{Z}}",
+        NN: "{\\mathbb{N}}",
+        QQ: "{\\mathbb{Q}}",
+        
+        // 안정적인 아래 첨자 표현을 위한 매크로
+        sub: ["{#1_{#2}}", 2],
+        
+        // 볼드체 아래 첨자 조합을 위한 매크로 - 직접 정의로 최적화
+        bsub: ["{\\mathbf{#1}_{#2}}", 2],
+        
+        // 양자역학 전용 매크로
+        ket: ["{\\left| #1 \\right\\rangle}", 1],
+        bra: ["{\\left\\langle #1 \\right|}", 1],
+        braket: ["{\\left\\langle #1 | #2 \\right\\rangle}", 2],
+        ketbra: ["{\\left| #1 \\right\\rangle\\left\\langle #2 \\right|}", 2],
+        expval: ["{\\left\\langle #1 \\right\\rangle}", 1],
+        expvalop: ["{\\left\\langle #1 \\right\\rangle_{#2}}", 2],
+        tr: "{\\textrm{tr}}",
+        
+        // 색상 관련 매크로
+        red: ["{\\color{red}{#1}}", 1],
+        blue: ["{\\color{blue}{#1}}", 1],
+        green: ["{\\color{green}{#1}}", 1],
+        purple: ["{\\color{purple}{#1}}", 1],
+        orange: ["{\\color{orange}{#1}}", 1],
+        
+        // 양자장론 및 입자물리학 매크로
+        // feyn 매크로 최적화
+        feyn: ["{\\begin{fmfgraph}(#1,#2)#3\\end{fmfgraph}}", 3],
+        slashed: ["{\\not{#1}}", 1],
+        order: ["{\\mathcal{O}(#1)}", 1],
+        diag: ["{\\textrm{diag}(#1)}", 1],
+        
+        // 중성미자 표기
+        nue: "{\\nu_{e}}",
+        numu: "{\\nu_{\\mu}}",
+        nutau: "{\\nu_{\\tau}}",
+        anue: "{\\overline{\\nu}_{e}}",
+        anumu: "{\\overline{\\nu}_{\\mu}}",
+        anutau: "{\\overline{\\nu}_{\\tau}}"
+      },
+      packages: {'[+]': ['ams', 'noerrors']} // 패키지는 로더에서만 로드하도록 최소화
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    svg: {
+      scale: 1,
+      minScale: 0.5,
+      matchFontHeight: true,
+      displayAlign: 'center',
+      fontCache: 'global'
+    },
+    startup: {
+      ready: function() {
+        MathJax.startup.defaultReady();
+        // MathJax 초기화 완료 후 처리 추가
+        console.log('MathJax이 준비되었습니다!');
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>

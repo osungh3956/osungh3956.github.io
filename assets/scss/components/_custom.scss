@@ -1,0 +1,26 @@
+// 블로그 이미지 중앙 정렬
+.blog {
+  .figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto;
+    
+    img {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+  
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  // 수식 이미지 중앙 정렬
+  p > img {
+    margin: 1.5rem auto;
+    display: block;
+  }
+}

@@ -1,0 +1,18 @@
+{{ if isset .Params "images" }}
+  {{ if gt (len .Params.images) 0 }}
+  <figure class="figure text-center"> <!-- 여기에 text-center 클래스 추가 -->
+    <img src="{{ index .Params.images 0 | relURL }}" class="figure-img img-fluid mx-auto d-block" alt="{{ .Title }}"> <!-- mx-auto와 d-block 클래스 추가 -->
+    {{ if isset .Params "caption" }}<figcaption class="figure-caption">{{ .Params.caption }}</figcaption>{{ end }}
+  </figure>
+  {{ else }}
+  <figure class="figure text-center"> <!-- 여기에도 text-center 클래스 추가 -->
+    <img src="{{ "images/default-placeholder.png" | relURL }}" class="figure-img img-fluid mx-auto d-block" alt="{{ .Title }}"> <!-- mx-auto와 d-block 클래스 추가 -->
+    {{ if isset .Params "caption" }}<figcaption class="figure-caption">{{ .Params.caption }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+{{ else }}
+<figure class="figure text-center"> <!-- 여기에도 text-center 클래스 추가 -->
+  <img src="{{ "images/default-placeholder.png" | relURL }}" class="figure-img img-fluid mx-auto d-block" alt="{{ .Title }}"> <!-- mx-auto와 d-block 클래스 추가 -->
+  {{ if isset .Params "caption" }}<figcaption class="figure-caption">{{ .Params.caption }}</figcaption>{{ end }}
+</figure>
+{{ end }}

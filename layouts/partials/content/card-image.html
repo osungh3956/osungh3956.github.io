@@ -1,0 +1,15 @@
+{{ if isset .Params "images" }}
+  {{ if gt (len .Params.images) 0 }}
+  <div class="card-image text-center"> <!-- 여기에 text-center 클래스 추가 -->
+    <img src="{{ index .Params.images 0 | relURL }}" class="card-img-top img-fluid mx-auto" alt="{{ .Title }}"> <!-- mx-auto 클래스 추가 -->
+  </div>
+  {{ else }}
+  <div class="card-image text-center"> <!-- 여기에도 text-center 클래스 추가 -->
+    <img src="{{ "images/default-placeholder.png" | relURL }}" class="card-img-top img-fluid mx-auto" alt="{{ .Title }}"> <!-- mx-auto 클래스 추가 -->
+  </div>
+  {{ end }}
+{{ else }}
+<div class="card-image text-center"> <!-- 여기에도 text-center 클래스 추가 -->
+  <img src="{{ "images/default-placeholder.png" | relURL }}" class="card-img-top img-fluid mx-auto" alt="{{ .Title }}"> <!-- mx-auto 클래스 추가 -->
+</div>
+{{ end }}

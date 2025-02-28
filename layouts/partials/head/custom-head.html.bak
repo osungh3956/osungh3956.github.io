@@ -1,0 +1,27 @@
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false},
+                {left: "\\[", right: "\\]", display: true}
+            ],
+            throwOnError : false
+        });
+    });
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        // 기존 설정...
+        
+        // 코드 블록에서 LaTeX 렌더링 방지
+        document.querySelectorAll('pre code').forEach((block) => {
+            block.setAttribute('data-skip-tex', '');
+        });
+    });
+</script><!-- Custom head -->
