@@ -1,25 +1,24 @@
-name: GitHub Pages
+name: Deploy Hugo Site to GitHub Pages
+
 on:
   push:
-    branches:
-      - main
-      
-permissions:
-  contents: write
-  
+    branches: [main]
+  workflow_dispatch:  # 수동 트리거 옵션
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          submodules: true
-          fetch-depth: 0 # 전체 Git 히스토리 가져오기
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.110.0'
+          hugo-version: '0.101.0'
           extended: true
 
       - name: Setup Node
@@ -28,7 +27,7 @@ jobs:
           node-version: '16'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci
 
       - name: Build
@@ -37,8 +36,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: gh-pages
           publish_dir: ./public
-          force_orphan: true  # 새로운 orphan 브랜치로 강제 업데이트
-          full_commit_message: ${{ github.event.head_commit.message }}  # 원본 커밋 메시지 유지
