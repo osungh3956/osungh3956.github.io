@@ -32,3 +32,4 @@ jobs:
           external_repository: ''
           publish_branch: gh-pages
           publish_dir: ./public
+          force_orphan: true
