@@ -58,7 +58,7 @@ jobs:
         run: |
           cd gh-pages
           # 삭제: .git과 현재 디렉토리를 제외한 모든 파일/폴더 삭제
-          find . -maxdepth=1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
           # 새 빌드 파일 복사 (빌드 job에서 다운로드한 public 폴더의 내용을 사용)
           cp -R ../public/* .
           git add --all
