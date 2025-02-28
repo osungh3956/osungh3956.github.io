@@ -3,39 +3,32 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:  # 수동 트리거 옵션
+
+# SSH 전용 권한 설정
+permissions:
+  contents: read
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-          fetch-depth: 0
+      - uses: actions/checkout@v3
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.101.0'
+          hugo-version: '0.110.0'
           extended: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'npm'
-
-      - name: Install Dependencies
-        run: npm ci
 
       - name: Build
         run: hugo --minify
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # 명시적 SSH 키 사용
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # SSH 전용 설정
+          external_repository: ''
           publish_branch: gh-pages
           publish_dir: ./public
