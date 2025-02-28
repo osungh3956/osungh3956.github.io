@@ -52,7 +52,7 @@ git clone https://github.com/h-enk/doks.git my-doks-site
 
 {{< details "Help me choose" >}}
 Not sure which one is for you? Pick the child theme.
-{{< /details >}}
+{{< details >}}
 
 ### Change directories
 
