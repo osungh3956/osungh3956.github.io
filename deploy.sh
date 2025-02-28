@@ -9,9 +9,9 @@ cd public
 
 # Git 초기화 및 설정
 git init
-git checkout -b main
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
+# git checkout -b main
+git config user.name "osungh3956"
+git config user.email "osungh3956@gmail.com"
 
 # 모든 변경사항 스테이징
 git add .
@@ -20,5 +20,5 @@ git add .
 git commit -m "Deploy site $(date)"
 
 # 원격 저장소 추가 및 푸시
-git remote add origin git@github.com:osungh3956/osungh3956.github.io.git
+# git remote add origin git@github.com:osungh3956/osungh3956.github.io.git
 git push -f origin main:gh-pages
