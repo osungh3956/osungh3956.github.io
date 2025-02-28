@@ -27,7 +27,6 @@ jobs:
       - name: Build
         run: hugo --minify
         # 필요시 다음과 같이 baseURL 명시적 지정:
-        # run: hugo --minify --baseURL="https://사용자이름.github.io/저장소이름/"
 
       # GitHub Pages 배포 - SSH 키 설정 유지
       - name: Deploy
@@ -39,3 +38,4 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./public
           full_commit_message: ${{ github.event.head_commit.message }}
+          force-orphan: true
