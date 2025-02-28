@@ -1,4 +1,4 @@
-name: Deploy Hugo Site to GitHub Pages
+name: Deploy Hugo Site to GitHub Pages (Custom)
 
 on:
   push:
@@ -20,24 +20,48 @@ jobs:
           hugo-version: '0.110.0'
           extended: true
 
-      - name: Build
-        run: hugo --minify
+      - name: Build Site
+        run: hugo --minify --cleanDestinationDir
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: site
           path: ./public
 
   deploy:
     runs-on: ubuntu-22.04
     needs: build
-    environment:
-      name: github-pages
     steps:
-      - name: Download Pages artifact
-        uses: actions/download-pages-artifact@v1
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: site
+          path: ./public
 
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v1
+      - name: Setup SSH for deployment
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        env:
+          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+
+      - name: Checkout gh-pages branch via SSH
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git clone --depth=1 --branch=gh-pages git@github.com:${{ github.repository }} gh-pages
+          
+      - name: Deploy to gh-pages branch
+        run: |
+          cd gh-pages
+          # 삭제: .git과 현재 디렉토리를 제외한 모든 파일/폴더 삭제
+          find . -maxdepth=1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          # 새 빌드 파일 복사 (빌드 job에서 다운로드한 public 폴더의 내용을 사용)
+          cp -R ../public/* .
+          git add --all
+          git commit -m "Deploy site from commit ${{ github.sha }}"
+          git push origin gh-pages --force
 
