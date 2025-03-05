@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theoretical Physics on</title><link>https://osungh3956.github.io/en/categories/theoretical-physics/</link><description>Recent content in Theoretical Physics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/categories/theoretical-physics/index.xml" rel="self" type="application/rss+xml"/><item><title>- The Intuitive Nature of Einstein Notation's Tensor Index Notation Using the Schouten Convention</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ The Schouten convention refers to the notation of attaching prime symbols to indices.
+1. Vector as a Contravariant Vector #
+In a vector space $V$, when the matrix that transforms the basis is $A$, we have $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+(Note that both $A$ and $A^{-1}$ can be represented using the $A$ index notation.)
+For a vector $v = v^i e_i$: $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$</description></item><item><title>- Non-degenerate Hermitian Form</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>Complex-valued non-degenerate Hermitian form $(\cdot \mid \cdot)$ or
+Real-valued non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. Linearity in the Second Argument #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+Complex vector space: Hermiticity, i.e.,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+Or real vector space: symmetry, i.e.,
+$$(u \mid v) \ =\ (v \mid u)$$
+Note that from 1 and 2, the first argument of $(\cdot \mid \cdot)$ is automatically conjugate-linear.</description></item></channel></rss>

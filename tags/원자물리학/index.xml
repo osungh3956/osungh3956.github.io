@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>원자물리학 on</title><link>https://osungh3956.github.io/tags/%EC%9B%90%EC%9E%90%EB%AC%BC%EB%A6%AC%ED%95%99/</link><description>Recent content in 원자물리학 on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://osungh3956.github.io/tags/%EC%9B%90%EC%9E%90%EB%AC%BC%EB%A6%AC%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- 수소형 원자의 스핀-궤도 상호작용</title><link>https://osungh3956.github.io/docs/sakurai/spin_orbit_interaction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/sakurai/spin_orbit_interaction/</guid><description>전체 각운동량과 교환 관계 #
+궤도 각운동량 $\mathbf{L}$과 스핀 $\mathbf{S}$를 가진 단일 전자에 대해, 전체 각운동량을 다음과 같이 정의합니다:
+$$\mathbf{J} = \mathbf{L} + \mathbf{S}.$$
+$\mathbf{J}$의 제곱은 다음과 같이 주어집니다:
+$$J^2 = L^2 + S^2 + 2\ \mathbf{L} \cdot \mathbf{S}.$$
+따라서,
+$$\mathbf{L} \cdot \mathbf{S} \ =\ \frac{1}{2}\Bigl(J^2 - L^2 - S^2\Bigr).$$
+다음의 교환 관계가 성립하므로:
+$$[J_z,\ L^2] = [J_z,\ S^2] = [J_z,\ J^2] = 0,$$
+이로부터 다음이 도출됩니다:
+$$[J_z,\ \mathbf{L} \cdot \mathbf{S}] = 0.</description></item></channel></rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>양자역학 on</title><link>https://osungh3956.github.io/categories/%EC%96%91%EC%9E%90%EC%97%AD%ED%95%99/</link><description>Recent content in 양자역학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/categories/%EC%96%91%EC%9E%90%EC%97%AD%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- m-선택 규칙 및 구면 텐서 구성</title><link>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. 구면 텐서에서 m-선택 규칙의 또 다른 방법 #
+m-선택 규칙을 보는 또 다른 방법은 회전 하에서 $T_{q}^{(k)}\ket{\alpha,jm}$의 변환 성질을 주목하는 것입니다. 즉,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+이제 $\mathcal{D}$가 $z$-축 주위의 회전 연산자를 나타낸다고 하면, 방정식 3과 방정식 4에 의해 다음을 얻습니다.
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+이는 $q + m = m&amp;rsquo;$가 아니면 $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$와 직교합니다.
+$z$-축 주위의 회전 연산자는 다음과 같이 주어집니다.</description></item><item><title>- 구면 텐서에서의 투영 정리</title><link>https://osungh3956.github.io/docs/sakurai/projection-theorem-in-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/projection-theorem-in-spherical-tensor/</guid><description>벡터 $\mathbf{v}$를 $\mathbf{v}$와 평행한 벡터 $\mathbf{j}$에 투영하는 경우를 고려해 봅시다. 여기서 &amp;lsquo;평행&amp;rsquo;이란 $\mathbf{v}$가 $\mathbf{j}$의 기저에 의해 &amp;lsquo;완전히&amp;rsquo; 표현됨을 의미합니다. $\mathbf{v}$를 $\mathbf{j}$에 투영한 크기는 다음과 같이 주어집니다:
+$$\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}.$$
+한편, $\mathbf{v}$의 $q$번째 축으로의 투영을 $v_{q}$로 표시한다면, 그 투영의 일부분은 $\mathbf{v}$가 $\mathbf{j}$ 방향으로 갖는 투영된 크기에 $\mathbf{j}$가 $q$번째 축으로 투영되는 비율을 곱한 것으로도 이해할 수 있습니다. 즉,
+$$v_{q} = \left(\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}\right) \frac{j_q}{\lvert\mathbf{j}\rvert} = \frac{\mathbf{j} \cdot \mathbf{v}}{\lvert\mathbf{j}\rvert^2} \ j_q.$$
+이는 사실상 기저의 변환을 의미합니다.</description></item><item><title>- 헬만-파인만 정리를 이용한 섭동 분석</title><link>https://osungh3956.github.io/docs/sakurai/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/perturbation/</guid><description>서론 #
+다음과 같은 해밀토니안을 고려합니다:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+여기서 비섭동 해밀토니안은 다음과 같이 주어집니다:
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+섭동된 해밀토니안과 비섭동 해밀토니안의 고유값은 각각 $E_n(\gamma)$와 $E_n^{(0)}$로 표시됩니다.
+헬만-파인만 정리 적용 #
+헬만-파인만 정리에 따르면,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+다음과 같이
+$$\frac{\partial H}{\partial \gamma} = \frac{1}{r^2},$$
+우리는 다음을 얻습니다:</description></item><item><title>- identity 행렬의 텐서곱 표현과 디랙 표기의 관계</title><link>https://osungh3956.github.io/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. 텐서 연산 #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. 선형연산자로서의 텐서 #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{여기서 } (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \text{ 라 정의하면} \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{그리고 } f(e_j) = e_j(f) \text{ 관계를 이용하면} \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. metric 듀얼의 이용 #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$</description></item></channel></rss>

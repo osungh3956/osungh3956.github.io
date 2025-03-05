@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>선형대수학 on</title><link>https://osungh3956.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</link><description>Recent content in 선형대수학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- Schouten convention을 사용한 아인슈타인 규약의 텐서식 첨자 표기의 직관성</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ Schouten convention은 프라임 기호를 첨자에 붙이는 표기법을 말합니다.
+1. 반변벡터(contravariant vector)로서의 벡터 #
+벡터공간 $V$에서 기저를 역변환시키는 행렬을 $A$라 할 때 $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+가 성립하므로
+(여기서 $A$, $A^{-1}$ 모두 $A$ 첨자표시로 나타낼 수 있음에 유의하여야 합니다.)
+벡터 $v = v^i e_i$에서 $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$
+즉, $[v]$에서 $[v]&amp;rsquo; = A [v]$로 $v$의 기저 표기가 변하기 때문에 contravariant 반변, 즉 기저변환과 반대로 변한다는 의미에서 contravariant vector 반변벡터라는 이름이 붙여졌다고 합니다.</description></item><item><title>- non-degenerate Hermitian form</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>복소값을 갖는 non-degenerate Hermitian form $(\cdot \mid \cdot)$ 또는
+실수값을 갖는 non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. 두번째 인자에서의 선형성 #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+복소벡터공간: Hermiticity 즉,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+또는 실벡터공간: symmetry 즉,
+$$(u \mid v) \ =\ (v \mid u)$$
+여기에서 유의할점은 1,2에서 $(\cdot \mid \cdot)$의 첫번째 인자는 conjugate-linear가 자동성립한다.</description></item><item><title>- A의 Hermitian Adjoint</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. $L : V \to V^*$ 정의 #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, 여기서 $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+여기서 주의할 사항은 $L$이 conjugate-linear map 이라는 점이다.
+2. $A^\dagger$ 정의 #
+$A^\dagger$는 $A$의 Hermitian adjoint 행렬을 나타내며 정의는 다음과 같다.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+따라서, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$이다. 이때, $A^\dagger(v) = A^\dagger v$, $A^T(\tilde{v}) = A^T\tilde{v}$ 이므로</description></item><item><title>- identity 행렬의 텐서곱 표현과 디랙 표기의 관계</title><link>https://osungh3956.github.io/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. 텐서 연산 #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. 선형연산자로서의 텐서 #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{여기서 } (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \text{ 라 정의하면} \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{그리고 } f(e_j) = e_j(f) \text{ 관계를 이용하면} \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. metric 듀얼의 이용 #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$</description></item></channel></rss>

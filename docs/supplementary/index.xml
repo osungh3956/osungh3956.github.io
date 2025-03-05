@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>보충자료 on</title><link>https://osungh3956.github.io/docs/supplementary/</link><description>Recent content in 보충자료 on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://osungh3956.github.io/docs/supplementary/index.xml" rel="self" type="application/rss+xml"/><item><title>- 방향 미분 &amp; 범함수 미분</title><link>https://osungh3956.github.io/docs/supplementary/directional-derivative-and-functional-derivative/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/supplementary/directional-derivative-and-functional-derivative/</guid><description>1. 방향 미분의 정의 #
+함수 $f : \mathbb{R}^n \to \mathbb{R}$에 대해, $i$번째 표준 기저 벡터 $\mathbf{e}_i$ 방향으로의 방향 미분은 다음과 같이 정의됩니다:
+$$ D_{\mathbf{e}_i} f = \frac{\partial f}{\partial x^i} $$
+$$ = \lim_{h \to 0} \frac{f(\mathbf{x} + h \mathbf{e}_i) - f(\mathbf{x})}{h} $$
+2. 방향 미분의 선형성 #
+방향 미분은 선형성을 갖습니다. 스칼라 $c$에 대해, 다음이 성립합니다:
+$$ D_{c \mathbf{e}_i} f $$
+$$ = \lim_{h \to 0} \frac{f(\mathbf{x} + h c \mathbf{e}_i) - f(\mathbf{x})}{h} $$</description></item><item><title>- 범함수 미분</title><link>https://osungh3956.github.io/docs/supplementary/functional_derivative_summary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/supplementary/functional_derivative_summary/</guid><description>이 섹션의 목표는 적절한 범함수 미분의 정의를 발견하여, 범함수의 미분을 취하면서도 일반 미적분학과 동일한 미분 규칙을 유지하는 것입니다. 예를 들어, $J[y(x)]$가 $y(x)$의 범함수일 때, $\frac{\delta J}{\delta y}$에 대한 정의를 찾아서 $$\frac{\delta}{\delta y} J^2 = 2J \frac{\delta J}{\delta y}$$ 와 같은 성질이 여전히 성립하기를 원합니다.
+정의 #
+- 범함수 #
+Stone의 국소 범함수 정의(여기서 $f$는 다변수 함수): $$J[y]$$
+$$= \int_{x_1}^{x_2} f(x, y(x), y&amp;rsquo;(x), y&amp;rsquo;&amp;rsquo;(x), \ldots, y^{(n)}(x)) \ dx$$
+$$= \int_{x_1}^{x_2} f \ dx \tag{1}$$</description></item><item><title>- 능동 변환과 수동 변환</title><link>https://osungh3956.github.io/docs/supplementary/active-passive-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/supplementary/active-passive-transformation/</guid><description>YouTube 강의영상 &amp;gt; 1. 기저 변환 ↔ 벡터 및 연산자(행렬) 변환 #
+$${|base\rangle} \to {U^\dagger|base\rangle}$$ $$\Leftrightarrow \quad |\psi\rangle \to U|\psi\rangle, A \to UAU^\dagger (|a\rangle \to U|a\rangle)$$
+2. 기댓값 $\langle A \rangle$ 변환 #
+$$\langle\psi|A|\psi\rangle \to \langle\psi&amp;rsquo;|A|\psi&amp;rsquo;\rangle \quad (|\psi&amp;rsquo;\rangle = U|\psi\rangle)$$
+또는
+$$\langle\psi|A|\psi\rangle \to \langle\psi|U^\dagger AU|\psi\rangle$$
+따라서,
+능동 변환: $|\psi\rangle \to U|\psi\rangle, \quad A \to A$
+$\Leftrightarrow$
+수동 변환: $|\psi\rangle \to |\psi\rangle, \quad A \to U^\dagger AU$</description></item></channel></rss>

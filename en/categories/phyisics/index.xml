@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phyisics on</title><link>https://osungh3956.github.io/en/categories/phyisics/</link><description>Recent content in phyisics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/categories/phyisics/index.xml" rel="self" type="application/rss+xml"/><item><title>- m-Selection Rule and Construction of Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. Another Way of m-Selection Rule in Spherical Tensor #
+Another way to see the m-selection rule is to note the transformation property of $T_{q}^{(k)}\ket{\alpha,jm}$ under rotation, namely,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+If we now let $\mathcal{D}$ stand for a rotation operator around the $z$-axis, we get by eq.3 and eq.4
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+which is orthogonal to $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$ unless $q + m = m&amp;rsquo;$.</description></item></channel></rss>

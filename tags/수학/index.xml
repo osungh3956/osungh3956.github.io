@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>수학 on</title><link>https://osungh3956.github.io/tags/%EC%88%98%ED%95%99/</link><description>Recent content in 수학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%88%98%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- A의 Hermitian Adjoint</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. $L : V \to V^*$ 정의 #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, 여기서 $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+여기서 주의할 사항은 $L$이 conjugate-linear map 이라는 점이다.
+2. $A^\dagger$ 정의 #
+$A^\dagger$는 $A$의 Hermitian adjoint 행렬을 나타내며 정의는 다음과 같다.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+따라서, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$이다. 이때, $A^\dagger(v) = A^\dagger v$, $A^T(\tilde{v}) = A^T\tilde{v}$ 이므로</description></item></channel></rss>

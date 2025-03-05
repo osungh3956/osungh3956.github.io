@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>이론물리학 on</title><link>https://osungh3956.github.io/categories/%EC%9D%B4%EB%A1%A0%EB%AC%BC%EB%A6%AC%ED%95%99/</link><description>Recent content in 이론물리학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/categories/%EC%9D%B4%EB%A1%A0%EB%AC%BC%EB%A6%AC%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- 헬만-파인만 정리를 이용한 섭동 분석</title><link>https://osungh3956.github.io/docs/sakurai/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/perturbation/</guid><description>서론 #
+다음과 같은 해밀토니안을 고려합니다:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+여기서 비섭동 해밀토니안은 다음과 같이 주어집니다:
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+섭동된 해밀토니안과 비섭동 해밀토니안의 고유값은 각각 $E_n(\gamma)$와 $E_n^{(0)}$로 표시됩니다.
+헬만-파인만 정리 적용 #
+헬만-파인만 정리에 따르면,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+다음과 같이
+$$\frac{\partial H}{\partial \gamma} = \frac{1}{r^2},$$
+우리는 다음을 얻습니다:</description></item><item><title>- Schouten convention을 사용한 아인슈타인 규약의 텐서식 첨자 표기의 직관성</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ Schouten convention은 프라임 기호를 첨자에 붙이는 표기법을 말합니다.
+1. 반변벡터(contravariant vector)로서의 벡터 #
+벡터공간 $V$에서 기저를 역변환시키는 행렬을 $A$라 할 때 $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+가 성립하므로
+(여기서 $A$, $A^{-1}$ 모두 $A$ 첨자표시로 나타낼 수 있음에 유의하여야 합니다.)
+벡터 $v = v^i e_i$에서 $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$
+즉, $[v]$에서 $[v]&amp;rsquo; = A [v]$로 $v$의 기저 표기가 변하기 때문에 contravariant 반변, 즉 기저변환과 반대로 변한다는 의미에서 contravariant vector 반변벡터라는 이름이 붙여졌다고 합니다.</description></item><item><title>- non-degenerate Hermitian form</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>복소값을 갖는 non-degenerate Hermitian form $(\cdot \mid \cdot)$ 또는
+실수값을 갖는 non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. 두번째 인자에서의 선형성 #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+복소벡터공간: Hermiticity 즉,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+또는 실벡터공간: symmetry 즉,
+$$(u \mid v) \ =\ (v \mid u)$$
+여기에서 유의할점은 1,2에서 $(\cdot \mid \cdot)$의 첫번째 인자는 conjugate-linear가 자동성립한다.</description></item></channel></rss>

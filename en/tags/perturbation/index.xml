@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>perturbation on</title><link>https://osungh3956.github.io/en/tags/perturbation/</link><description>Recent content in perturbation on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/perturbation/index.xml" rel="self" type="application/rss+xml"/><item><title>- Perturbation Analysis using the Hellmann-Feynman Theorem</title><link>https://osungh3956.github.io/en/docs/sakurai/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/perturbation/</guid><description>Introduction #
+We consider the Hamiltonian:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+where the unperturbed Hamiltonian is given by
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+The eigenvalues of the perturbed and unperturbed Hamiltonians are denoted as $E_n(\gamma)$ and $E_n^{(0)}$, respectively.
+Applying the Hellmann-Feynman Theorem #
+By the Hellmann-Feynman theorem,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+Since</description></item></channel></rss>

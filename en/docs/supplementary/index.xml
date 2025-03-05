@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Supplementary on</title><link>https://osungh3956.github.io/en/docs/supplementary/</link><description>Recent content in Supplementary on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://osungh3956.github.io/en/docs/supplementary/index.xml" rel="self" type="application/rss+xml"/><item><title>- Directional Derivative &amp; Functional Derivative</title><link>https://osungh3956.github.io/en/docs/supplementary/directional-derivative-and-functional-derivative/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/directional-derivative-and-functional-derivative/</guid><description>1. Definition of Directional Derivative #
+Let $f : \mathbb{R}^n \to \mathbb{R}$. The directional derivative in the direction of the $i$-th standard basis vector $\mathbf{e}_i$ is defined as:
+$$ D_{\mathbf{e}_i} f = \frac{\partial f}{\partial x^i} $$
+$$ = \lim_{h \to 0} \frac{f(\mathbf{x} + h \mathbf{e}_i) - f(\mathbf{x})}{h} $$
+2. Linearity of Directional Derivative #
+The directional derivative is linear. For a scalar $c$, we have:
+$$ D_{c \mathbf{e}_i} f $$</description></item><item><title>- Functional Derivative</title><link>https://osungh3956.github.io/en/docs/supplementary/functional_derivative_summary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/functional_derivative_summary/</guid><description>The goal of this section is to discover a suitable definition of a functional derivative, such that we can take the derivative of a functional and still have the same rules of differentiation as normal calculus. For example, we wish to find a definition for $\frac{\delta J}{\delta y}$, where $J[y(x)]$ is a functional of $y(x)$ such that things like $$\frac{\delta}{\delta y} J^2 = 2J \frac{\delta J}{\delta y}$$ are still true.</description></item><item><title>- Active and Passive Transformations</title><link>https://osungh3956.github.io/en/docs/supplementary/active-passive-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/active-passive-transformation/</guid><description>Watch Lecture Video on YouTube &amp;gt; 1. Basis Change ↔ Vector &amp;amp; Operator(Matrix) Transformation #
+$${|base\rangle} \to {U^\dagger|base\rangle}$$ $$\Leftrightarrow \quad |\psi\rangle \to U|\psi\rangle, A \to UAU^\dagger (|a\rangle \to U|a\rangle)$$
+2. Expectation Value $\langle A \rangle$ transformation #
+$$\langle\psi|A|\psi\rangle \to \langle\psi&amp;rsquo;|A|\psi&amp;rsquo;\rangle \quad (|\psi&amp;rsquo;\rangle = U|\psi\rangle)$$
+or
+$$\langle\psi|A|\psi\rangle \to \langle\psi|U^\dagger AU|\psi\rangle$$
+Hence,
+Active: $|\psi\rangle \to U|\psi\rangle, \quad A \to A$
+$\Leftrightarrow$
+Passive: $|\psi\rangle \to |\psi\rangle, \quad A \to U^\dagger AU$</description></item></channel></rss>

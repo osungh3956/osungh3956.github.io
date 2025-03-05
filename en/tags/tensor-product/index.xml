@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tensor Product on</title><link>https://osungh3956.github.io/en/tags/tensor-product/</link><description>Recent content in Tensor Product on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/tensor-product/index.xml" rel="self" type="application/rss+xml"/><item><title>- The Relationship Between Tensor Product Representation of Identity Matrix and Dirac Notation</title><link>https://osungh3956.github.io/en/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/tensors/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. Tensor Operations #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. Tensors as Linear Operators #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{,where }\ (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{,where } \ f(e_j) = e_j(f) \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. Using Metric Duality #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$
+4. Definition of Tensor Product Inner Product #
+$$(v_1 \otimes w_1|v_2 \otimes w_2) = (v_1|v_2) (w_1|w_2)$$</description></item></channel></rss>

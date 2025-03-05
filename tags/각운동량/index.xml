@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>각운동량 on</title><link>https://osungh3956.github.io/tags/%EA%B0%81%EC%9A%B4%EB%8F%99%EB%9F%89/</link><description>Recent content in 각운동량 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B0%81%EC%9A%B4%EB%8F%99%EB%9F%89/index.xml" rel="self" type="application/rss+xml"/><item><title>- m-선택 규칙 및 구면 텐서 구성</title><link>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. 구면 텐서에서 m-선택 규칙의 또 다른 방법 #
+m-선택 규칙을 보는 또 다른 방법은 회전 하에서 $T_{q}^{(k)}\ket{\alpha,jm}$의 변환 성질을 주목하는 것입니다. 즉,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+이제 $\mathcal{D}$가 $z$-축 주위의 회전 연산자를 나타낸다고 하면, 방정식 3과 방정식 4에 의해 다음을 얻습니다.
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+이는 $q + m = m&amp;rsquo;$가 아니면 $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$와 직교합니다.
+$z$-축 주위의 회전 연산자는 다음과 같이 주어집니다.</description></item><item><title>- 구면 텐서에서의 투영 정리</title><link>https://osungh3956.github.io/docs/sakurai/projection-theorem-in-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/projection-theorem-in-spherical-tensor/</guid><description>벡터 $\mathbf{v}$를 $\mathbf{v}$와 평행한 벡터 $\mathbf{j}$에 투영하는 경우를 고려해 봅시다. 여기서 &amp;lsquo;평행&amp;rsquo;이란 $\mathbf{v}$가 $\mathbf{j}$의 기저에 의해 &amp;lsquo;완전히&amp;rsquo; 표현됨을 의미합니다. $\mathbf{v}$를 $\mathbf{j}$에 투영한 크기는 다음과 같이 주어집니다:
+$$\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}.$$
+한편, $\mathbf{v}$의 $q$번째 축으로의 투영을 $v_{q}$로 표시한다면, 그 투영의 일부분은 $\mathbf{v}$가 $\mathbf{j}$ 방향으로 갖는 투영된 크기에 $\mathbf{j}$가 $q$번째 축으로 투영되는 비율을 곱한 것으로도 이해할 수 있습니다. 즉,
+$$v_{q} = \left(\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}\right) \frac{j_q}{\lvert\mathbf{j}\rvert} = \frac{\mathbf{j} \cdot \mathbf{v}}{\lvert\mathbf{j}\rvert^2} \ j_q.$$
+이는 사실상 기저의 변환을 의미합니다.</description></item><item><title>- 수소형 원자의 스핀-궤도 상호작용</title><link>https://osungh3956.github.io/docs/sakurai/spin_orbit_interaction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/sakurai/spin_orbit_interaction/</guid><description>전체 각운동량과 교환 관계 #
+궤도 각운동량 $\mathbf{L}$과 스핀 $\mathbf{S}$를 가진 단일 전자에 대해, 전체 각운동량을 다음과 같이 정의합니다:
+$$\mathbf{J} = \mathbf{L} + \mathbf{S}.$$
+$\mathbf{J}$의 제곱은 다음과 같이 주어집니다:
+$$J^2 = L^2 + S^2 + 2\ \mathbf{L} \cdot \mathbf{S}.$$
+따라서,
+$$\mathbf{L} \cdot \mathbf{S} \ =\ \frac{1}{2}\Bigl(J^2 - L^2 - S^2\Bigr).$$
+다음의 교환 관계가 성립하므로:
+$$[J_z,\ L^2] = [J_z,\ S^2] = [J_z,\ J^2] = 0,$$
+이로부터 다음이 도출됩니다:
+$$[J_z,\ \mathbf{L} \cdot \mathbf{S}] = 0.</description></item></channel></rss>

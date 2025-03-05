@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>섭동이론 on</title><link>https://osungh3956.github.io/tags/%EC%84%AD%EB%8F%99%EC%9D%B4%EB%A1%A0/</link><description>Recent content in 섭동이론 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%84%AD%EB%8F%99%EC%9D%B4%EB%A1%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>- 헬만-파인만 정리를 이용한 섭동 분석</title><link>https://osungh3956.github.io/docs/sakurai/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/perturbation/</guid><description>서론 #
+다음과 같은 해밀토니안을 고려합니다:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+여기서 비섭동 해밀토니안은 다음과 같이 주어집니다:
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+섭동된 해밀토니안과 비섭동 해밀토니안의 고유값은 각각 $E_n(\gamma)$와 $E_n^{(0)}$로 표시됩니다.
+헬만-파인만 정리 적용 #
+헬만-파인만 정리에 따르면,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+다음과 같이
+$$\frac{\partial H}{\partial \gamma} = \frac{1}{r^2},$$
+우리는 다음을 얻습니다:</description></item></channel></rss>

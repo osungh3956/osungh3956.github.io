@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>대칭성 on</title><link>https://osungh3956.github.io/tags/%EB%8C%80%EC%B9%AD%EC%84%B1/</link><description>Recent content in 대칭성 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EB%8C%80%EC%B9%AD%EC%84%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>- m-선택 규칙 및 구면 텐서 구성</title><link>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. 구면 텐서에서 m-선택 규칙의 또 다른 방법 #
+m-선택 규칙을 보는 또 다른 방법은 회전 하에서 $T_{q}^{(k)}\ket{\alpha,jm}$의 변환 성질을 주목하는 것입니다. 즉,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+이제 $\mathcal{D}$가 $z$-축 주위의 회전 연산자를 나타낸다고 하면, 방정식 3과 방정식 4에 의해 다음을 얻습니다.
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+이는 $q + m = m&amp;rsquo;$가 아니면 $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$와 직교합니다.
+$z$-축 주위의 회전 연산자는 다음과 같이 주어집니다.</description></item></channel></rss>

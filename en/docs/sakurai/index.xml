@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sakurai on</title><link>https://osungh3956.github.io/en/docs/sakurai/</link><description>Recent content in Sakurai on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/docs/sakurai/index.xml" rel="self" type="application/rss+xml"/><item><title>[ Modern Quantum Mechanics ]</title><link>https://osungh3956.github.io/en/docs/sakurai/start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/start/</guid><description/></item><item><title>- Vector Operators and Commutation Relations</title><link>https://osungh3956.github.io/en/docs/sakurai/vector-operators-commutation-relations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/vector-operators-commutation-relations/</guid><description>$$D^{\dagger}(R)V_iD(R) = \sum_j R_{ij}V_j$$
+Infinitesimal rotation: #
+$$D(R) = e^{-\frac{i}{\hbar}\epsilon \mathbf{J} \cdot \hat{\mathbf{n}}} \approx 1 - \frac{i}{\hbar}\epsilon \mathbf{J} \cdot \hat{\mathbf{n}}$$
+Then,
+$$\left(1 + \frac{i}{\hbar}\epsilon \mathbf{J} \cdot \hat{\mathbf{n}}\right) V_i \left(1 - \frac{i}{\hbar}\epsilon \mathbf{J} \cdot \hat{\mathbf{n}}\right) = \sum_j R_{ij}V_j$$
+Expand the expression: #
+$$V_i - \frac{i}{\hbar}\epsilon(\mathbf{J} \cdot \hat{\mathbf{n}})V_i + \frac{i}{\hbar}V_i\epsilon(\mathbf{J} \cdot \hat{\mathbf{n}})$$
+$$+ \frac{\epsilon^2}{\hbar^2}(\mathbf{J} \cdot \hat{\mathbf{n}})V_i(\mathbf{J} \cdot \hat{\mathbf{n}}) = \sum_j R_{ij}V_j$$
+Neglecting the second-order term of $\epsilon$, we get:
+$$V_i + \frac{i}{\hbar}\epsilon[\mathbf{J} \cdot \hat{\mathbf{n}}, V_i] = \sum_j R_{ij}V_j$$</description></item><item><title>- Vector Operator vs. Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/vector-spherical-tensor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/vector-spherical-tensor/</guid><description>1. Definitional Properties #
+1.1 Definitional Property of Vector Operator #
+$$ [ J_i , V_j ] = \sum_k i\hbar \epsilon_{ijk} V_k $$
+or equivalently,
+$$ [ V_i , J_j ] = \sum_k i\hbar \epsilon_{ijk} V_k $$
+1.2 Corresponding Property of Spherical Tensor #
+$$ [ J_0 , T_q^{(k)} ] = \hbar q T_q^{(k)} $$
+and
+$$ [J_{\pm} , T_q^{(k)}] = \hbar \sqrt{(k \mp q)(k \pm q +1)} T_{q \pm 1}^{(k)} $$</description></item><item><title>- m-Selection Rule and Construction of Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. Another Way of m-Selection Rule in Spherical Tensor #
+Another way to see the m-selection rule is to note the transformation property of $T_{q}^{(k)}\ket{\alpha,jm}$ under rotation, namely,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+If we now let $\mathcal{D}$ stand for a rotation operator around the $z$-axis, we get by eq.3 and eq.4
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+which is orthogonal to $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$ unless $q + m = m&amp;rsquo;$.</description></item><item><title>- Projection Theorem in Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/projection-theorem-in-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/projection-theorem-in-spherical-tensor/</guid><description>Consider projecting a vector $\mathbf{v}$ onto a vector $\mathbf{j}$ which is parallel to $\mathbf{v}$, where &amp;lsquo;parallel&amp;rsquo; means $\mathbf{v}$ is &amp;lsquo;completely&amp;rsquo; represented by $\mathbf{j}$&amp;rsquo;s basis. The magnitude of the projection of $\mathbf{v}$ onto $\mathbf{j}$ is given by
+$$\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}.$$
+Meanwhile, if we denote the projection of $\mathbf{v}$ onto the $q$-th axis as $v_{q}$, then the portion of that projection can also be understood as multiplying the projected magnitude $\mathbf{v}$ has in the direction of $\mathbf{j}$ by the fraction that $\mathbf{j}$ is projected onto the $q$-th axis, namely</description></item><item><title>- Perturbation Analysis using the Hellmann-Feynman Theorem</title><link>https://osungh3956.github.io/en/docs/sakurai/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/perturbation/</guid><description>Introduction #
+We consider the Hamiltonian:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+where the unperturbed Hamiltonian is given by
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+The eigenvalues of the perturbed and unperturbed Hamiltonians are denoted as $E_n(\gamma)$ and $E_n^{(0)}$, respectively.
+Applying the Hellmann-Feynman Theorem #
+By the Hellmann-Feynman theorem,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+Since</description></item><item><title>- Spin-Orbit Interaction in Hydrogen-like Atoms</title><link>https://osungh3956.github.io/en/docs/sakurai/spin_orbit_interaction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/spin_orbit_interaction/</guid><description>Total Angular Momentum and Commutation Relations #
+For a single electron with orbital angular momentum $\mathbf{L}$ and spin $\mathbf{S}$, we define the total angular momentum as
+$$\mathbf{J} = \mathbf{L} + \mathbf{S}.$$
+The square of $\mathbf{J}$ is given by
+$$J^2 = L^2 + S^2 + 2\ \mathbf{L} \cdot \mathbf{S}.$$
+Hence,
+$$\mathbf{L} \cdot \mathbf{S} \ =\ \frac{1}{2}\Bigl(J^2 - L^2 - S^2\Bigr).$$
+Because
+$$[J_z,\ L^2] = [J_z,\ S^2] = [J_z,\ J^2] = 0,$$</description></item></channel></rss>
