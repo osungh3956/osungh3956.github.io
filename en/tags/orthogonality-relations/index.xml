@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orthogonality Relations on</title><link>https://osungh3956.github.io/en/tags/orthogonality-relations/</link><description>Recent content in Orthogonality Relations on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:02 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/orthogonality-relations/index.xml" rel="self" type="application/rss+xml"/><item><title>- Character Theory in Group Representation</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:02 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. Definition of Character #
+The character of a representation $D(g)$ is defined as the trace of the representation matrix:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. Orthogonality Relations #
+From the orthogonality relation for matrix elements:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ We can derive the orthogonality relation for characters:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ That is:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ or
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ This means character functions of $g$ in different irreducible representations are orthogonal.</description></item></channel></rss>

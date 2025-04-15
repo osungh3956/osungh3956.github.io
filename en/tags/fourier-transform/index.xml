@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fourier Transform on</title><link>https://osungh3956.github.io/en/tags/fourier-transform/</link><description>Recent content in Fourier Transform on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 13 Mar 2025 00:45:26 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/fourier-transform/index.xml" rel="self" type="application/rss+xml"/><item><title>- Development from Fourier Series to Fourier Transform</title><link>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:45:26 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>Introduction #
+This document explains the mathematical development from Fourier series to Fourier transform, which is fundamental in quantum mechanics and signal processing.
+Vector Basis Representation of Fourier Series #
+The Fourier series representation in vector basis form can be written as:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+To give this summation a meaning of area, we can view $n$ as a value $x&amp;rsquo;$ on the x-axis:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$</description></item></channel></rss>

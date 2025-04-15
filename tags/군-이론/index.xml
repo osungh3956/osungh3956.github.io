@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>군 이론 on</title><link>https://osungh3956.github.io/tags/%EA%B5%B0-%EC%9D%B4%EB%A1%A0/</link><description>Recent content in 군 이론 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B5%B0-%EC%9D%B4%EB%A1%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>- 모든 군 표현은 유니터리 표현과 동등하다</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:38:16 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>소개 #
+이 글에서는 모든 군 표현이 유니터리 표현과 동등함을 증명할 것입니다. 이는 표현론에서 기본적인 결과로, 물리학과 수학에서 중요한 응용을 가지고 있습니다.
+정의와 배경 #
+표현의 동등성: 두 표현 $A$와 $B$는 다음을 만족하는 가역 행렬 $X$가 존재할 때 동등합니다:
+$$A = XBX^{-1}$$
+에르미트 연산자: 우리가 사용할 핵심 성질은 모든 에르미트 연산자가 대각화 가능하다는 것입니다.
+유니터리 표현과의 동등성 증명 #
+군 $G$의 표현 $D$에 대해 연산자 $S$를 다음과 같이 정의합시다:
+$$S = \sum_{g \in G} D(g)^{\dagger} D(g)$$</description></item><item><title>- 군 표현에서의 캐릭터 이론</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:05 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. 캐릭터의 정의 #
+표현 $D(g)$의 캐릭터는 표현 행렬의 대각합(trace)으로 정의됩니다:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. 직교 관계 #
+행렬 요소에 대한 직교 관계식:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ 이로부터 캐릭터에 대한 직교 관계식을 유도할 수 있습니다:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ 즉:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ 또는
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ 이는 서로 다른 기약 표현에서 $g$의 캐릭터 함수들이 서로 직교함을 의미합니다.</description></item></channel></rss>

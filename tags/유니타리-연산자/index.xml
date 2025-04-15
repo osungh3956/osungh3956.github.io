@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>유니타리 연산자 on</title><link>https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%83%80%EB%A6%AC-%EC%97%B0%EC%82%B0%EC%9E%90/</link><description>Recent content in 유니타리 연산자 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 21 Mar 2025 01:27:46 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%83%80%EB%A6%AC-%EC%97%B0%EC%82%B0%EC%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>- 시간 진화 연산자</title><link>https://osungh3956.github.io/docs/supplementary/qm/time_evolution_operator/</link><pubDate>Fri, 21 Mar 2025 01:27:46 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/time_evolution_operator/</guid><description>1. 시간 대칭성: 슈뢰딩거 묘사 #
+두 상태 사이의 내적은 시간 진화 하에서 보존되어야 합니다:
+$\langle\phi|\psi\rangle = \langle\phi|U^{\dagger}(\Delta t)U(\Delta t)|\psi\rangle$, 여기서 $U(\Delta t)|\psi\rangle = |\psi;\Delta t\rangle$
+따라서, $U^{\dagger}(\Delta t)U(\Delta t) = 1$
+이는 $U(\Delta t)$가 유니타리 연산자임을 의미합니다.
+2. 유니타리 연산자 $U$의 일반적 형태 #
+$U=e^{i\Omega}$, 여기서 $\Omega^{\dagger} = \Omega$
+3. $U(\Delta t)$의 표현 #
+$U(\Delta t) = e^{i\Delta t \Omega}$
+4. 군 성질 검증 #
+$U(\Delta t_2)U(\Delta t_1) = U(\Delta t_1 + \Delta t_2)$의 성립:</description></item></channel></rss>

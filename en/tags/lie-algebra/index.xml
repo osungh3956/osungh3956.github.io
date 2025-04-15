@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lie Algebra on</title><link>https://osungh3956.github.io/en/tags/lie-algebra/</link><description>Recent content in Lie Algebra on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:46 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/lie-algebra/index.xml" rel="self" type="application/rss+xml"/><item><title>- Tensor Operators</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:46 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. Lie Group Representation #
+$D(\alpha)$ represents an element $g$ of the Lie group $G$, where $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$, with $g(0) = e$, which implies $D(0) = 1$. Therefore,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+where,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+Also, an element $X$ in the Lie algebra can be expressed as
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. Lie Algebra and Subalgebra #
+If $J_a$ are elements of the Lie algebra of $G$, and $X_a$ are elements of a subalgebra, then</description></item><item><title>- Rotations in the Lie Algebra so(3)</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:55:38 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</guid><description>1. Basis of so(3) #
+The Lie algebra so(3) has a basis consisting of three elements: $L_x$, $L_y$, and $L_z$.
+$L_x$: Represents rotation in the $yz$-plane (analogous to $\sigma_y$) $L_y$: Represents rotation in the $zx$-plane (analogous to $\sigma_y$) $L_z$: Represents rotation in the $xy$-plane (analogous to $\sigma_y$) These basis elements can be explicitly written as matrices:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ For any element $X \in \text{so}(3)$, we can express it as a linear combination: $X = xL_x + yL_y + zL_z$, where $[X] = (x, y, z)$</description></item></channel></rss>

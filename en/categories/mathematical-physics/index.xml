@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mathematical physics on</title><link>https://osungh3956.github.io/en/categories/mathematical-physics/</link><description>Recent content in mathematical physics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:46 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/categories/mathematical-physics/index.xml" rel="self" type="application/rss+xml"/><item><title>- Tensor Operators</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:46 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. Lie Group Representation #
+$D(\alpha)$ represents an element $g$ of the Lie group $G$, where $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$, with $g(0) = e$, which implies $D(0) = 1$. Therefore,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+where,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+Also, an element $X$ in the Lie algebra can be expressed as
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. Lie Algebra and Subalgebra #
+If $J_a$ are elements of the Lie algebra of $G$, and $X_a$ are elements of a subalgebra, then</description></item><item><title>- Schur's Lemma in Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>Schur&amp;rsquo;s lemma is a fundamental result in representation theory that characterizes the intertwining operators between irreducible representations. The lemma consists of two important parts.
+Part I: Intertwining Maps Between Different Irreps #
+If $D_a(g)$ and $D_b(g)$ are inequivalent irreducible representations of a group $G$, and $A$ is a linear operator satisfying:
+$$D_a(g)A = AD_b(g)$$
+for all $g \in G$, then $A = 0$.
+Proof: #
+Suppose there exists a non-zero vector $|\mu\rangle$ such that $A|\mu\rangle = 0$.</description></item><item><title>- Orthogonality Relations in Group Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:52:53 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>Introduction #
+This document explores the orthogonality relations in group representation theory, which are fundamental in understanding how irreducible representations of finite groups behave.
+Diadic Linear Operator and Transformation Properties #
+We begin by defining a diadic linear operator:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ When this operator is transformed by a representation matrix $D_a(g_1)$:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ Let&amp;rsquo;s substitute $g&amp;rsquo;=g_1g^{-1}$, which implies $g=g&amp;rsquo;^{-1}g_1$. This gives us:</description></item><item><title>- Development from Fourier Series to Fourier Transform</title><link>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:45:26 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>Introduction #
+This document explains the mathematical development from Fourier series to Fourier transform, which is fundamental in quantum mechanics and signal processing.
+Vector Basis Representation of Fourier Series #
+The Fourier series representation in vector basis form can be written as:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+To give this summation a meaning of area, we can view $n$ as a value $x&amp;rsquo;$ on the x-axis:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$</description></item></channel></rss>

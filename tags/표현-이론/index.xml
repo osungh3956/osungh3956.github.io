@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>표현 이론 on</title><link>https://osungh3956.github.io/tags/%ED%91%9C%ED%98%84-%EC%9D%B4%EB%A1%A0/</link><description>Recent content in 표현 이론 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:49 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%ED%91%9C%ED%98%84-%EC%9D%B4%EB%A1%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>- 군 표현에서의 캐릭터 이론</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:05 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. 캐릭터의 정의 #
+표현 $D(g)$의 캐릭터는 표현 행렬의 대각합(trace)으로 정의됩니다:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. 직교 관계 #
+행렬 요소에 대한 직교 관계식:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ 이로부터 캐릭터에 대한 직교 관계식을 유도할 수 있습니다:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ 즉:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ 또는
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ 이는 서로 다른 기약 표현에서 $g$의 캐릭터 함수들이 서로 직교함을 의미합니다.</description></item><item><title>- 텐서 연산자</title><link>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:49 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. 리 군 표현 #
+$D(\alpha)$는 리 군 $G$의 원소 $g$를 나타내며, 여기서 $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$이고, $g(0) = e$이므로 $D(0) = 1$입니다. 따라서,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+여기서,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+또한, 리 대수의 원소 $X$는 다음과 같이 표현할 수 있습니다.
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. 리 대수와 부분대수 #
+$J_a$가 $G$의 리 대수의 원소이고, $X_a$가 부분대수의 원소라면,</description></item></channel></rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Group Theory on</title><link>https://osungh3956.github.io/en/tags/group-theory/</link><description>Recent content in Group Theory on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:02 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/group-theory/index.xml" rel="self" type="application/rss+xml"/><item><title>- Schur's Lemma in Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>Schur&amp;rsquo;s lemma is a fundamental result in representation theory that characterizes the intertwining operators between irreducible representations. The lemma consists of two important parts.
+Part I: Intertwining Maps Between Different Irreps #
+If $D_a(g)$ and $D_b(g)$ are inequivalent irreducible representations of a group $G$, and $A$ is a linear operator satisfying:
+$$D_a(g)A = AD_b(g)$$
+for all $g \in G$, then $A = 0$.
+Proof: #
+Suppose there exists a non-zero vector $|\mu\rangle$ such that $A|\mu\rangle = 0$.</description></item><item><title>- All Group Representation is Equivalent to Unitary Representation</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:37:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>Introduction #
+In this article, we will prove that all group representations are equivalent to unitary representations. This is a fundamental result in representation theory with important applications in physics and mathematics.
+Definitions and Background #
+Equivalence of Representations: Two representations $A$ and $B$ are equivalent if and only if there exists an invertible matrix $X$ such that:
+$$A = XBX^{-1}$$
+Hermitian Operators: A key property we&amp;rsquo;ll use is that all Hermitian operators are diagonalizable.</description></item><item><title>- Orthogonality Relations in Group Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:52:53 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>Introduction #
+This document explores the orthogonality relations in group representation theory, which are fundamental in understanding how irreducible representations of finite groups behave.
+Diadic Linear Operator and Transformation Properties #
+We begin by defining a diadic linear operator:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ When this operator is transformed by a representation matrix $D_a(g_1)$:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ Let&amp;rsquo;s substitute $g&amp;rsquo;=g_1g^{-1}$, which implies $g=g&amp;rsquo;^{-1}g_1$. This gives us:</description></item><item><title>- Character Theory in Group Representation</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:02 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. Definition of Character #
+The character of a representation $D(g)$ is defined as the trace of the representation matrix:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. Orthogonality Relations #
+From the orthogonality relation for matrix elements:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ We can derive the orthogonality relation for characters:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ That is:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ or
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ This means character functions of $g$ in different irreducible representations are orthogonal.</description></item><item><title>- Rotations in the Lie Algebra so(3)</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:55:38 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</guid><description>1. Basis of so(3) #
+The Lie algebra so(3) has a basis consisting of three elements: $L_x$, $L_y$, and $L_z$.
+$L_x$: Represents rotation in the $yz$-plane (analogous to $\sigma_y$) $L_y$: Represents rotation in the $zx$-plane (analogous to $\sigma_y$) $L_z$: Represents rotation in the $xy$-plane (analogous to $\sigma_y$) These basis elements can be explicitly written as matrices:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ For any element $X \in \text{so}(3)$, we can express it as a linear combination: $X = xL_x + yL_y + zL_z$, where $[X] = (x, y, z)$</description></item></channel></rss>

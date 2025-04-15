@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>기약표현 on</title><link>https://osungh3956.github.io/tags/%EA%B8%B0%EC%95%BD%ED%91%9C%ED%98%84/</link><description>Recent content in 기약표현 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 14:34:24 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B8%B0%EC%95%BD%ED%91%9C%ED%98%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- 표현론에서의 슈어 보조정리</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:24 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>슈어 보조정리(Schur&amp;rsquo;s lemma)는 표현론에서 기약표현 사이의 연동 연산자(intertwining operators)를 특징짓는 기본적인 결과입니다. 이 보조정리는 두 가지 중요한 부분으로 구성됩니다.
+제1부: 서로 다른 기약표현 사이의 연동 사상 #
+만약 $D_a(g)$와 $D_b(g)$가 군 $G$의 서로 동등하지 않은 기약표현이고, $A$가 모든 $g \in G$에 대해 다음을 만족하는 선형 연산자라면:
+$$D_a(g)A = AD_b(g)$$
+그러면 $A = 0$입니다.
+증명: #
+$A|\mu\rangle = 0$을 만족하는 영이 아닌 벡터 $|\mu\rangle$가 존재한다고 가정합시다. $P$를 $|\mu\rangle$에 대한 투영 연산자라고 합시다.</description></item></channel></rss>

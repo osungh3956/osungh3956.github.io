@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>완비성 관계 on</title><link>https://osungh3956.github.io/tags/%EC%99%84%EB%B9%84%EC%84%B1-%EA%B4%80%EA%B3%84/</link><description>Recent content in 완비성 관계 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 13 Mar 2025 14:14:02 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%99%84%EB%B9%84%EC%84%B1-%EA%B4%80%EA%B3%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- 연속 스펙트럼: 벡터 공간에서의 정규화와 완비성</title><link>https://osungh3956.github.io/docs/supplementary/la/continuous_spectra/</link><pubDate>Thu, 13 Mar 2025 14:14:02 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/la/continuous_spectra/</guid><description>연속 스펙트럼에서의 정규화 #
+연속 스펙트럼을 가진 벡터 공간에서 상태는 다음과 같이 표현할 수 있습니다:
+$$|\psi\rangle = \lim_{\Delta x \to 0} \sum_{n=-\infty}^{\infty} \Delta x\ \psi(n\Delta x)|n\Delta x\rangle$$
+$$|\phi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty} \Delta x\ \phi(m\Delta x)|m\Delta x\rangle$$
+이 상태들 사이의 내적은 다음과 같이 쓸 수 있습니다:
+$$\langle\phi|\psi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty}\sum_{n=-\infty}^{\infty} $$
+$$\left (\ \Delta x \ \phi^*(m\Delta x) \ \psi(n\Delta x) \ \Delta x \ \langle m\Delta x|n\Delta x\rangle\ \right )$$</description></item></channel></rss>

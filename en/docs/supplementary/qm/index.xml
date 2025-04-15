@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QM on</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/</link><description>Recent content in QM on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 21 Mar 2025 01:27:44 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/docs/supplementary/qm/index.xml" rel="self" type="application/rss+xml"/><item><title>- Canonical Commutation Relation in Quantum Mechanics</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</link><pubDate>Wed, 12 Mar 2025 13:26:15 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</guid><description>Introduction to Canonical Commutation Relation #
+The canonical commutation relation is one of the fundamental principles in quantum mechanics, establishing the relationship between position and momentum operators.
+Derivation from Energy Eigenstates #
+Let&amp;rsquo;s start with energy eigenstates:
+$$H|i\rangle = E_i |i\rangle, \quad H|f\rangle = E_f |f\rangle$$
+Where the energy difference follows the Einstein-Planck relation:
+$$E_f - E_i = \hbar \omega$$
+Commutator Analysis #
+Examining the matrix element of the commutator $[x,H]$:</description></item><item><title>- Properties of Pauli Matrices</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</link><pubDate>Fri, 14 Mar 2025 12:33:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</guid><description>1. Basic Properties of Pauli Matrices #
+The Pauli matrices are defined as:
+$$ \sigma_x = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix},$$ $$ \quad \sigma_z = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} $$ With basis ${|+\rangle, |-\rangle}$, where:
+$\sigma_z |+\rangle = +1 |+\rangle$ $\sigma_z |-\rangle = -1 |-\rangle$ 2. Eigenvalues and Eigenvectors #
+For $\sigma_x$: $$\sigma_x(a|+\rangle + b|-\rangle) = \lambda (a|+\rangle + b|-\rangle)$$</description></item><item><title>- Pauli Matrices and Rotation</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</link><pubDate>Sat, 15 Mar 2025 20:38:55 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</guid><description>1. Vector Space of Traceless Hermitian Matrices #
+(1) Basis: ${\sigma_x, \sigma_y, \sigma_z}$ #
+$\mathbf{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\sigma} = n_x \sigma_x + n_y \sigma_y + n_z \sigma_z \in V$ Inner product: $X \cdot Y = \frac{1}{2}\text{tr}(XY)$ (2) Basis: ${\frac{1}{2}\sigma_x, \frac{1}{2}\sigma_y, \frac{1}{2}\sigma_z}$ #
+$\tilde{\sigma}_x = \frac{1}{2}\sigma_x$, $\tilde{\sigma}_y = \frac{1}{2}\sigma_y$, $\tilde{\sigma}_z = \frac{1}{2}\sigma_z$ $\mathbf{\tilde{\sigma}} = (\tilde{\sigma}_x, \tilde{\sigma}_y, \tilde{\sigma}_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\tilde{\sigma}} = n_x \tilde{\sigma}_x + n_y \tilde{\sigma}_y + n_z \tilde{\sigma}_z \in V$ Inner product: $X \cdot Y = 2 \text{tr}(XY)$ 2.</description></item><item><title>- Translation Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</link><pubDate>Sun, 16 Mar 2025 17:05:52 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</guid><description>1. Translational Symmetry in Space #
+The inner product between two states remains invariant under translation:
+$\langle\phi|\psi\rangle = \langle\phi|T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x)|\psi\rangle$
+where $T(\Delta x&amp;rsquo;)|x&amp;rsquo;\rangle = |x&amp;rsquo;+\Delta x&amp;rsquo;\rangle$
+Therefore, $T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x) = 1$
+This means that $T(\Delta x&amp;rsquo;)$ is a unitary operator.
+2. General Form of Unitary Operators #
+The general form of a unitary operator $U$ is:
+$U = e^{ik}$, where $k^{\dagger} = k$
+3. Representation of Translation Operator #
+The translation operator can be represented as:</description></item><item><title>- Two-Body Problem Analysis</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/two_body_problem/</link><pubDate>Mon, 17 Mar 2025 13:12:59 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/two_body_problem/</guid><description>1. Center of Mass $\mathbf{R}$ #
+Total Mass $M$ $$M = m_1 + m_2$$ Center of Mass $\mathbf{R}$ $$M \mathbf{R} = m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2$$ Therefore, $$\mathbf{R} = \frac{m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2}{m_1 + m_2}\tag{1}$$
+2. Relative Distance $\mathbf{r}$ #
+The relative distance between two bodies $$\mathbf{r} = \mathbf{r}_1 - \mathbf{r}_2\tag{2}$$
+3. Analysis of Two-Body System Motion #
+The motion can be analyzed as a combination of the center of mass motion and the relative motion between the two bodies.</description></item><item><title>- Rotations in the Lie Algebra so(3)</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:55:38 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</guid><description>1. Basis of so(3) #
+The Lie algebra so(3) has a basis consisting of three elements: $L_x$, $L_y$, and $L_z$.
+$L_x$: Represents rotation in the $yz$-plane (analogous to $\sigma_y$) $L_y$: Represents rotation in the $zx$-plane (analogous to $\sigma_y$) $L_z$: Represents rotation in the $xy$-plane (analogous to $\sigma_y$) These basis elements can be explicitly written as matrices:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ For any element $X \in \text{so}(3)$, we can express it as a linear combination: $X = xL_x + yL_y + zL_z$, where $[X] = (x, y, z)$</description></item><item><title>- Rotation Matrix in Euclidean Space Using Spin Operator Sz</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>Introduction #
+This document explores how to represent rotation matrices in Euclidean space using the spin operator $S_z$ along the rotation axis $n_z$.
+Angular Momentum Operator $L_z$ #
+The angular momentum operator $L_z$ can be represented as:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ This operator has eigenvalues $+1$, $0$, and $-1$ with corresponding eigenvectors:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item><item><title>- Time Evolution Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</link><pubDate>Fri, 21 Mar 2025 01:27:44 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</guid><description>1. Time Symmetry: Schrödinger Picture #
+The inner product between two states should be preserved under time evolution:
+$\langle\phi|\psi\rangle = \langle\phi|U^{\dagger}(\Delta t)U(\Delta t)|\psi\rangle$, where $U(\Delta t)|\psi\rangle = |\psi;\Delta t\rangle$
+Therefore, $U^{\dagger}(\Delta t)U(\Delta t) = 1$
+This means that $U(\Delta t)$ is a unitary operator.
+2. General Form of Unitary Operator $U$ #
+$U=e^{i\Omega}$, where $\Omega^{\dagger} = \Omega$
+3. Representation of $U(\Delta t)$ #
+$U(\Delta t) = e^{i\Delta t \Omega}$
+4. Verification of Group Property #
+$U(\Delta t_2)U(\Delta t_1) = U(\Delta t_1 + \Delta t_2)$ holds:</description></item></channel></rss>

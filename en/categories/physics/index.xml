@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Physics on</title><link>https://osungh3956.github.io/en/categories/physics/</link><description>Recent content in Physics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 19 Mar 2025 22:18:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/categories/physics/index.xml" rel="self" type="application/rss+xml"/><item><title>- Projection Theorem in Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/angular-momentum/spherical-tensors/projection-theorem-in-spherical-tensor/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/angular-momentum/spherical-tensors/projection-theorem-in-spherical-tensor/</guid><description>Consider projecting a vector $\mathbf{v}$ onto a vector $\mathbf{j}$ which is parallel to $\mathbf{v}$, where &amp;lsquo;parallel&amp;rsquo; means $\mathbf{v}$ is &amp;lsquo;completely&amp;rsquo; represented by $\mathbf{j}$&amp;rsquo;s basis. The magnitude of the projection of $\mathbf{v}$ onto $\mathbf{j}$ is given by
+$$\frac{\mathbf{j}}{\lvert\mathbf{j}\rvert} \cdot \mathbf{v}.$$
+Meanwhile, if we denote the projection of $\mathbf{v}$ onto the $q$-th axis as $v_{q}$, then the portion of that projection can also be understood as multiplying the projected magnitude $\mathbf{v}$ has in the direction of $\mathbf{j}$ by the fraction that $\mathbf{j}$ is projected onto the $q$-th axis, namely</description></item><item><title>- Perturbation Analysis using the Hellmann-Feynman Theorem</title><link>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/perturbation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/perturbation/</guid><description>Introduction #
+We consider the Hamiltonian:
+$$H = H_0 + V_\gamma, \quad V_\gamma = \frac{\gamma}{r^2}$$
+where the unperturbed Hamiltonian is given by
+$$H_0 = \frac{p_r^2}{2m} + \frac{\hbar^2 l(l+1)}{2m r^2} - \frac{Z e^2}{r}.$$
+The eigenvalues of the perturbed and unperturbed Hamiltonians are denoted as $E_n(\gamma)$ and $E_n^{(0)}$, respectively.
+Applying the Hellmann-Feynman Theorem #
+By the Hellmann-Feynman theorem,
+$$\frac{d E_n(\gamma)}{d \gamma} = \left\langle \psi(\gamma) \middle| \frac{\partial H}{\partial \gamma} \middle| \psi(\gamma) \right\rangle.$$
+Since</description></item><item><title>- Spin-Orbit Interaction in Hydrogen-like Atoms</title><link>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/spin_orbit_interaction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/spin_orbit_interaction/</guid><description>Total Angular Momentum and Commutation Relations #
+For a single electron with orbital angular momentum $\mathbf{L}$ and spin $\mathbf{S}$, we define the total angular momentum as
+$$\mathbf{J} = \mathbf{L} + \mathbf{S}.$$
+The square of $\mathbf{J}$ is given by
+$$J^2 = L^2 + S^2 + 2\ \mathbf{L} \cdot \mathbf{S}.$$
+Hence,
+$$\mathbf{L} \cdot \mathbf{S} \ =\ \frac{1}{2}\Bigl(J^2 - L^2 - S^2\Bigr).$$
+Because
+$$[J_z,\ L^2] = [J_z,\ S^2] = [J_z,\ J^2] = 0,$$</description></item><item><title>- Non-degenerate Hermitian Form</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>Complex-valued non-degenerate Hermitian form $(\cdot \mid \cdot)$ or
+Real-valued non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. Linearity in the Second Argument #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+Complex vector space: Hermiticity, i.e.,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+Or real vector space: symmetry, i.e.,
+$$(u \mid v) \ =\ (v \mid u)$$
+Note that from 1 and 2, the first argument of $(\cdot \mid \cdot)$ is automatically conjugate-linear.</description></item><item><title>- The Relationship Between Tensor Product Representation of Identity Matrix and Dirac Notation</title><link>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. Tensor Operations #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. Tensors as Linear Operators #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{,where }\ (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{,where } \ f(e_j) = e_j(f) \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. Using Metric Duality #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$
+4. Definition of Tensor Product Inner Product #
+$$(v_1 \otimes w_1|v_2 \otimes w_2) = (v_1|v_2) (w_1|w_2)$$</description></item><item><title>- Canonical Commutation Relation in Quantum Mechanics</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</link><pubDate>Wed, 12 Mar 2025 13:26:15 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</guid><description>Introduction to Canonical Commutation Relation #
+The canonical commutation relation is one of the fundamental principles in quantum mechanics, establishing the relationship between position and momentum operators.
+Derivation from Energy Eigenstates #
+Let&amp;rsquo;s start with energy eigenstates:
+$$H|i\rangle = E_i |i\rangle, \quad H|f\rangle = E_f |f\rangle$$
+Where the energy difference follows the Einstein-Planck relation:
+$$E_f - E_i = \hbar \omega$$
+Commutator Analysis #
+Examining the matrix element of the commutator $[x,H]$:</description></item><item><title>- Rotation Matrix in Euclidean Space Using Spin Operator Sz</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>Introduction #
+This document explores how to represent rotation matrices in Euclidean space using the spin operator $S_z$ along the rotation axis $n_z$.
+Angular Momentum Operator $L_z$ #
+The angular momentum operator $L_z$ can be represented as:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ This operator has eigenvalues $+1$, $0$, and $-1$ with corresponding eigenvectors:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item></channel></rss>

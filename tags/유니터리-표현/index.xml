@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>유니터리 표현 on</title><link>https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%84%B0%EB%A6%AC-%ED%91%9C%ED%98%84/</link><description>Recent content in 유니터리 표현 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 17:38:16 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%84%B0%EB%A6%AC-%ED%91%9C%ED%98%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- 모든 군 표현은 유니터리 표현과 동등하다</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:38:16 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>소개 #
+이 글에서는 모든 군 표현이 유니터리 표현과 동등함을 증명할 것입니다. 이는 표현론에서 기본적인 결과로, 물리학과 수학에서 중요한 응용을 가지고 있습니다.
+정의와 배경 #
+표현의 동등성: 두 표현 $A$와 $B$는 다음을 만족하는 가역 행렬 $X$가 존재할 때 동등합니다:
+$$A = XBX^{-1}$$
+에르미트 연산자: 우리가 사용할 핵심 성질은 모든 에르미트 연산자가 대각화 가능하다는 것입니다.
+유니터리 표현과의 동등성 증명 #
+군 $G$의 표현 $D$에 대해 연산자 $S$를 다음과 같이 정의합시다:
+$$S = \sum_{g \in G} D(g)^{\dagger} D(g)$$</description></item></channel></rss>

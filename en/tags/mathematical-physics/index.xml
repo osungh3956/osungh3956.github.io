@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mathematical physics on</title><link>https://osungh3956.github.io/en/tags/mathematical-physics/</link><description>Recent content in mathematical physics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 17:37:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/mathematical-physics/index.xml" rel="self" type="application/rss+xml"/><item><title>- The Relationship Between Tensor Product Representation of Identity Matrix and Dirac Notation</title><link>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. Tensor Operations #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. Tensors as Linear Operators #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{,where }\ (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{,where } \ f(e_j) = e_j(f) \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. Using Metric Duality #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$
+4. Definition of Tensor Product Inner Product #
+$$(v_1 \otimes w_1|v_2 \otimes w_2) = (v_1|v_2) (w_1|w_2)$$</description></item><item><title>- All Group Representation is Equivalent to Unitary Representation</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:37:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>Introduction #
+In this article, we will prove that all group representations are equivalent to unitary representations. This is a fundamental result in representation theory with important applications in physics and mathematics.
+Definitions and Background #
+Equivalence of Representations: Two representations $A$ and $B$ are equivalent if and only if there exists an invertible matrix $X$ such that:
+$$A = XBX^{-1}$$
+Hermitian Operators: A key property we&amp;rsquo;ll use is that all Hermitian operators are diagonalizable.</description></item><item><title>- Canonical Commutation Relation in Quantum Mechanics</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</link><pubDate>Wed, 12 Mar 2025 13:26:15 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/canonical_commutation_relation/</guid><description>Introduction to Canonical Commutation Relation #
+The canonical commutation relation is one of the fundamental principles in quantum mechanics, establishing the relationship between position and momentum operators.
+Derivation from Energy Eigenstates #
+Let&amp;rsquo;s start with energy eigenstates:
+$$H|i\rangle = E_i |i\rangle, \quad H|f\rangle = E_f |f\rangle$$
+Where the energy difference follows the Einstein-Planck relation:
+$$E_f - E_i = \hbar \omega$$
+Commutator Analysis #
+Examining the matrix element of the commutator $[x,H]$:</description></item><item><title>- Development from Fourier Series to Fourier Transform</title><link>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:45:26 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>Introduction #
+This document explains the mathematical development from Fourier series to Fourier transform, which is fundamental in quantum mechanics and signal processing.
+Vector Basis Representation of Fourier Series #
+The Fourier series representation in vector basis form can be written as:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+To give this summation a meaning of area, we can view $n$ as a value $x&amp;rsquo;$ on the x-axis:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$</description></item></channel></rss>

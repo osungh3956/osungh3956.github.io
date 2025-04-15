@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ch.1 Finite Groups on</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/</link><description>Recent content in Ch.1 Finite Groups on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/index.xml" rel="self" type="application/rss+xml"/><item><title>- 표현론에서의 슈어 보조정리</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:24 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>슈어 보조정리(Schur&amp;rsquo;s lemma)는 표현론에서 기약표현 사이의 연동 연산자(intertwining operators)를 특징짓는 기본적인 결과입니다. 이 보조정리는 두 가지 중요한 부분으로 구성됩니다.
+제1부: 서로 다른 기약표현 사이의 연동 사상 #
+만약 $D_a(g)$와 $D_b(g)$가 군 $G$의 서로 동등하지 않은 기약표현이고, $A$가 모든 $g \in G$에 대해 다음을 만족하는 선형 연산자라면:
+$$D_a(g)A = AD_b(g)$$
+그러면 $A = 0$입니다.
+증명: #
+$A|\mu\rangle = 0$을 만족하는 영이 아닌 벡터 $|\mu\rangle$가 존재한다고 가정합시다. $P$를 $|\mu\rangle$에 대한 투영 연산자라고 합시다.</description></item><item><title>- 모든 군 표현은 유니터리 표현과 동등하다</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:38:16 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>소개 #
+이 글에서는 모든 군 표현이 유니터리 표현과 동등함을 증명할 것입니다. 이는 표현론에서 기본적인 결과로, 물리학과 수학에서 중요한 응용을 가지고 있습니다.
+정의와 배경 #
+표현의 동등성: 두 표현 $A$와 $B$는 다음을 만족하는 가역 행렬 $X$가 존재할 때 동등합니다:
+$$A = XBX^{-1}$$
+에르미트 연산자: 우리가 사용할 핵심 성질은 모든 에르미트 연산자가 대각화 가능하다는 것입니다.
+유니터리 표현과의 동등성 증명 #
+군 $G$의 표현 $D$에 대해 연산자 $S$를 다음과 같이 정의합시다:
+$$S = \sum_{g \in G} D(g)^{\dagger} D(g)$$</description></item><item><title>- 군 표현론에서의 직교성 관계</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:53:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>서론 #
+이 문서는 유한 군의 기약 표현이 어떻게 작용하는지 이해하는 데 기본이 되는 군 표현론에서의 직교성 관계에 대해 탐구합니다.
+이중선형 연산자와 변환 특성 #
+먼저 이중선형 연산자를 정의합니다:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ 이 연산자가 표현 행렬 $D_a(g_1)$에 의해 변환될 때:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ $g&amp;rsquo;=g_1g^{-1}$로 치환하면, $g=g&amp;rsquo;^{-1}g_1$이 됩니다. 이를 통해 다음을 얻습니다:
+$$\begin{align} D_a(g_1)A^{ab}_{jl} &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g'^{-1}g_1) \\ &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g')D_b(g_1) \\ &amp;= A^{ab}_{jl}D_b(g_1) \end{align}$$ 슈어의 보조정리 적용 #
+슈어의 보조정리에 의해 다음을 추론할 수 있습니다:</description></item><item><title>- 군 표현에서의 캐릭터 이론</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:05 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. 캐릭터의 정의 #
+표현 $D(g)$의 캐릭터는 표현 행렬의 대각합(trace)으로 정의됩니다:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. 직교 관계 #
+행렬 요소에 대한 직교 관계식:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ 이로부터 캐릭터에 대한 직교 관계식을 유도할 수 있습니다:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ 즉:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ 또는
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ 이는 서로 다른 기약 표현에서 $g$의 캐릭터 함수들이 서로 직교함을 의미합니다.</description></item></channel></rss>

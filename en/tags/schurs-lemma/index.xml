@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Schur's lemma on</title><link>https://osungh3956.github.io/en/tags/schurs-lemma/</link><description>Recent content in Schur's lemma on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 23:52:53 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/schurs-lemma/index.xml" rel="self" type="application/rss+xml"/><item><title>- Schur's Lemma in Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>Schur&amp;rsquo;s lemma is a fundamental result in representation theory that characterizes the intertwining operators between irreducible representations. The lemma consists of two important parts.
+Part I: Intertwining Maps Between Different Irreps #
+If $D_a(g)$ and $D_b(g)$ are inequivalent irreducible representations of a group $G$, and $A$ is a linear operator satisfying:
+$$D_a(g)A = AD_b(g)$$
+for all $g \in G$, then $A = 0$.
+Proof: #
+Suppose there exists a non-zero vector $|\mu\rangle$ such that $A|\mu\rangle = 0$.</description></item><item><title>- Orthogonality Relations in Group Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:52:53 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>Introduction #
+This document explores the orthogonality relations in group representation theory, which are fundamental in understanding how irreducible representations of finite groups behave.
+Diadic Linear Operator and Transformation Properties #
+We begin by defining a diadic linear operator:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ When this operator is transformed by a representation matrix $D_a(g_1)$:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ Let&amp;rsquo;s substitute $g&amp;rsquo;=g_1g^{-1}$, which implies $g=g&amp;rsquo;^{-1}g_1$. This gives us:</description></item></channel></rss>

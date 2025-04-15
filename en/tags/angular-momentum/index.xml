@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>angular momentum on</title><link>https://osungh3956.github.io/en/tags/angular-momentum/</link><description>Recent content in angular momentum on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 19 Mar 2025 22:18:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/angular-momentum/index.xml" rel="self" type="application/rss+xml"/><item><title>- m-Selection Rule and Construction of Spherical Tensor</title><link>https://osungh3956.github.io/en/docs/sakurai/angular-momentum/spherical-tensors/m-selection-rule-and-construction-of-spherical-tensor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/angular-momentum/spherical-tensors/m-selection-rule-and-construction-of-spherical-tensor/</guid><description>1. Another Way of m-Selection Rule in Spherical Tensor #
+Another way to see the m-selection rule is to note the transformation property of $T_{q}^{(k)}\ket{\alpha,jm}$ under rotation, namely,
+$$ \mathcal{D}T_{q}^{(k)}\ket{\alpha,jm} = \mathcal{D}T_{q}^{(k)}\mathcal{D}^{\dagger} \mathcal{D}\ket{\alpha,jm}.\tag{1} $$
+If we now let $\mathcal{D}$ stand for a rotation operator around the $z$-axis, we get by eq.3 and eq.4
+$$ \mathcal{D}(\hat{z},\phi)T_{q}^{(k)}\ket{\alpha,jm} $$
+$$ = e^{-iq\phi} e^{-im\phi} T_{q}^{(k)}\ket{\alpha,jm},\tag{2} $$
+which is orthogonal to $\ket{\alpha&amp;rsquo;,j&amp;rsquo; m&amp;rsquo;}$ unless $q + m = m&amp;rsquo;$.</description></item><item><title>- Spin-Orbit Interaction in Hydrogen-like Atoms</title><link>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/spin_orbit_interaction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/sakurai/perturbation/time-independent/spin_orbit_interaction/</guid><description>Total Angular Momentum and Commutation Relations #
+For a single electron with orbital angular momentum $\mathbf{L}$ and spin $\mathbf{S}$, we define the total angular momentum as
+$$\mathbf{J} = \mathbf{L} + \mathbf{S}.$$
+The square of $\mathbf{J}$ is given by
+$$J^2 = L^2 + S^2 + 2\ \mathbf{L} \cdot \mathbf{S}.$$
+Hence,
+$$\mathbf{L} \cdot \mathbf{S} \ =\ \frac{1}{2}\Bigl(J^2 - L^2 - S^2\Bigr).$$
+Because
+$$[J_z,\ L^2] = [J_z,\ S^2] = [J_z,\ J^2] = 0,$$</description></item><item><title>- Rotation Matrix in Euclidean Space Using Spin Operator Sz</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>Introduction #
+This document explores how to represent rotation matrices in Euclidean space using the spin operator $S_z$ along the rotation axis $n_z$.
+Angular Momentum Operator $L_z$ #
+The angular momentum operator $L_z$ can be represented as:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ This operator has eigenvalues $+1$, $0$, and $-1$ with corresponding eigenvectors:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item></channel></rss>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mathematics on</title><link>https://osungh3956.github.io/en/tags/mathematics/</link><description>Recent content in Mathematics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 20 Mar 2025 00:17:26 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/mathematics/index.xml" rel="self" type="application/rss+xml"/><item><title>- Hermitian Adjoint of A</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. Definition of $L : V \to V^*$ #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, where $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+It&amp;rsquo;s important to note that $L$ is a conjugate-linear map.
+2. Definition of $A^\dagger$ #
+$A^\dagger$ represents the Hermitian adjoint matrix of $A$ and is defined as follows.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+Therefore, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$. Since $A^\dagger(v) = A^\dagger v$ and $A^T(\tilde{v}) = A^T\tilde{v}$, we have</description></item><item><title>- Taylor Series Expansion</title><link>https://osungh3956.github.io/en/docs/supplementary/calculus/taylor_series/</link><pubDate>Thu, 20 Mar 2025 00:17:26 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/calculus/taylor_series/</guid><description>Introduction to Taylor Series #
+The Taylor series is a representation of a function as an infinite sum of terms calculated from the values of the function&amp;rsquo;s derivatives at a single point. It provides a way to approximate functions using polynomial expressions.
+Basic Formula #
+The Taylor series expansion of a function $f(x)$ around a point $x = a$ is given by:
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+Where:
+$f^{(n)}(a)$ represents the $n$-th derivative of $f$ evaluated at point $a$ $(x-a)$ is the distance from the expansion point Alternative Notation #
+If we denote $x-a = \Delta x$, the Taylor series can be written as:</description></item></channel></rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>unitary transformation on</title><link>https://osungh3956.github.io/en/tags/unitary-transformation/</link><description>Recent content in unitary transformation on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 16 Mar 2025 17:05:52 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/unitary-transformation/index.xml" rel="self" type="application/rss+xml"/><item><title>- Translation Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</link><pubDate>Sun, 16 Mar 2025 17:05:52 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</guid><description>1. Translational Symmetry in Space #
+The inner product between two states remains invariant under translation:
+$\langle\phi|\psi\rangle = \langle\phi|T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x)|\psi\rangle$
+where $T(\Delta x&amp;rsquo;)|x&amp;rsquo;\rangle = |x&amp;rsquo;+\Delta x&amp;rsquo;\rangle$
+Therefore, $T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x) = 1$
+This means that $T(\Delta x&amp;rsquo;)$ is a unitary operator.
+2. General Form of Unitary Operators #
+The general form of a unitary operator $U$ is:
+$U = e^{ik}$, where $k^{\dagger} = k$
+3. Representation of Translation Operator #
+The translation operator can be represented as:</description></item></channel></rss>

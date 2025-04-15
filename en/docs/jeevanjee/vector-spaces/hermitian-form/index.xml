@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hermitian Form on</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/</link><description>Recent content in Hermitian Form on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/index.xml" rel="self" type="application/rss+xml"/><item><title>- Non-degenerate Hermitian Form</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>Complex-valued non-degenerate Hermitian form $(\cdot \mid \cdot)$ or
+Real-valued non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. Linearity in the Second Argument #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+Complex vector space: Hermiticity, i.e.,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+Or real vector space: symmetry, i.e.,
+$$(u \mid v) \ =\ (v \mid u)$$
+Note that from 1 and 2, the first argument of $(\cdot \mid \cdot)$ is automatically conjugate-linear.</description></item><item><title>- Hermitian Adjoint of A</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. Definition of $L : V \to V^*$ #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, where $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+It&amp;rsquo;s important to note that $L$ is a conjugate-linear map.
+2. Definition of $A^\dagger$ #
+$A^\dagger$ represents the Hermitian adjoint matrix of $A$ and is defined as follows.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+Therefore, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$. Since $A^\dagger(v) = A^\dagger v$ and $A^T(\tilde{v}) = A^T\tilde{v}$, we have</description></item></channel></rss>

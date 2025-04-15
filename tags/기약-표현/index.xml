@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>기약 표현 on</title><link>https://osungh3956.github.io/tags/%EA%B8%B0%EC%95%BD-%ED%91%9C%ED%98%84/</link><description>Recent content in 기약 표현 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B8%B0%EC%95%BD-%ED%91%9C%ED%98%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- 군 표현론에서의 직교성 관계</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:53:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>서론 #
+이 문서는 유한 군의 기약 표현이 어떻게 작용하는지 이해하는 데 기본이 되는 군 표현론에서의 직교성 관계에 대해 탐구합니다.
+이중선형 연산자와 변환 특성 #
+먼저 이중선형 연산자를 정의합니다:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ 이 연산자가 표현 행렬 $D_a(g_1)$에 의해 변환될 때:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ $g&amp;rsquo;=g_1g^{-1}$로 치환하면, $g=g&amp;rsquo;^{-1}g_1$이 됩니다. 이를 통해 다음을 얻습니다:
+$$\begin{align} D_a(g_1)A^{ab}_{jl} &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g'^{-1}g_1) \\ &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g')D_b(g_1) \\ &amp;= A^{ab}_{jl}D_b(g_1) \end{align}$$ 슈어의 보조정리 적용 #
+슈어의 보조정리에 의해 다음을 추론할 수 있습니다:</description></item><item><title>- 군 표현에서의 캐릭터 이론</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:05 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. 캐릭터의 정의 #
+표현 $D(g)$의 캐릭터는 표현 행렬의 대각합(trace)으로 정의됩니다:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. 직교 관계 #
+행렬 요소에 대한 직교 관계식:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ 이로부터 캐릭터에 대한 직교 관계식을 유도할 수 있습니다:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ 즉:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ 또는
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ 이는 서로 다른 기약 표현에서 $g$의 캐릭터 함수들이 서로 직교함을 의미합니다.</description></item></channel></rss>

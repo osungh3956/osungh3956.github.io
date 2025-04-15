@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>리 대수 on</title><link>https://osungh3956.github.io/tags/%EB%A6%AC-%EB%8C%80%EC%88%98/</link><description>Recent content in 리 대수 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:49 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EB%A6%AC-%EB%8C%80%EC%88%98/index.xml" rel="self" type="application/rss+xml"/><item><title>- 텐서 연산자</title><link>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:49 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. 리 군 표현 #
+$D(\alpha)$는 리 군 $G$의 원소 $g$를 나타내며, 여기서 $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$이고, $g(0) = e$이므로 $D(0) = 1$입니다. 따라서,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+여기서,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+또한, 리 대수의 원소 $X$는 다음과 같이 표현할 수 있습니다.
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. 리 대수와 부분대수 #
+$J_a$가 $G$의 리 대수의 원소이고, $X_a$가 부분대수의 원소라면,</description></item><item><title>- 리 대수 so(3)에서의 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:58:19 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</guid><description>1. so(3)의 기저 #
+리 대수 so(3)는 세 가지 요소로 구성된 기저를 가집니다: $L_x$, $L_y$, 그리고 $L_z$.
+$L_x$: $yz$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_y$: $zx$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_z$: $xy$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) 이러한 기저 요소들은 행렬로 명시적으로 표현될 수 있습니다:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 임의의 원소 $X \in \text{so}(3)$에 대해, 우리는 이를 선형 조합으로 표현할 수 있습니다: $X = xL_x + yL_y + zL_z$, 여기서 $[X] = (x, y, z)$</description></item></channel></rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Time Evolution on</title><link>https://osungh3956.github.io/en/tags/time-evolution/</link><description>Recent content in Time Evolution on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 21 Mar 2025 01:27:44 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/time-evolution/index.xml" rel="self" type="application/rss+xml"/><item><title>- Time Evolution Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</link><pubDate>Fri, 21 Mar 2025 01:27:44 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</guid><description>1. Time Symmetry: Schrödinger Picture #
+The inner product between two states should be preserved under time evolution:
+$\langle\phi|\psi\rangle = \langle\phi|U^{\dagger}(\Delta t)U(\Delta t)|\psi\rangle$, where $U(\Delta t)|\psi\rangle = |\psi;\Delta t\rangle$
+Therefore, $U^{\dagger}(\Delta t)U(\Delta t) = 1$
+This means that $U(\Delta t)$ is a unitary operator.
+2. General Form of Unitary Operator $U$ #
+$U=e^{i\Omega}$, where $\Omega^{\dagger} = \Omega$
+3. Representation of $U(\Delta t)$ #
+$U(\Delta t) = e^{i\Delta t \Omega}$
+4. Verification of Group Property #
+$U(\Delta t_2)U(\Delta t_1) = U(\Delta t_1 + \Delta t_2)$ holds:</description></item></channel></rss>

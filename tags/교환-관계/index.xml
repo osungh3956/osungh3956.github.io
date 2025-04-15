@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>교환 관계 on</title><link>https://osungh3956.github.io/tags/%EA%B5%90%ED%99%98-%EA%B4%80%EA%B3%84/</link><description>Recent content in 교환 관계 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 12 Mar 2025 13:26:21 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B5%90%ED%99%98-%EA%B4%80%EA%B3%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- 양자역학에서의 정준 교환 관계</title><link>https://osungh3956.github.io/docs/supplementary/qm/canonical_commutation_relation/</link><pubDate>Wed, 12 Mar 2025 13:26:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/canonical_commutation_relation/</guid><description>정준 교환 관계 소개 #
+정준 교환 관계는 양자역학의 기본 원리 중 하나로, 위치 연산자와 운동량 연산자 사이의 관계를 확립합니다.
+에너지 고유상태로부터의 유도 #
+에너지 고유상태로부터 시작해봅시다:
+$$H|i\rangle = E_i |i\rangle, \quad H|f\rangle = E_f |f\rangle$$
+여기서 에너지 차이는 아인슈타인-플랑크 관계를 따릅니다:
+$$E_f - E_i = \hbar \omega$$
+교환자 분석 #
+교환자 $[x,H]$의 행렬 요소를 살펴봅시다:
+$$\langle i|[x,H]|f\rangle = (E_f - E_i) \langle i|x|f\rangle = \hbar \omega \langle i|x|f\rangle$$
+$[x,H]$가 $\langle i|x|f\rangle$의 시간 미분에 비례한다는 것을 관찰할 수 있으며, 이는 다음을 의미합니다:</description></item></channel></rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>수학 on</title><link>https://osungh3956.github.io/categories/%EC%88%98%ED%95%99/</link><description>Recent content in 수학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 31 Mar 2025 14:11:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/categories/%EC%88%98%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- Schouten convention을 사용한 아인슈타인 규약의 텐서식 첨자 표기의 직관성</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ Schouten convention은 프라임 기호를 첨자에 붙이는 표기법을 말합니다.
+1. 반변벡터(contravariant vector)로서의 벡터 #
+벡터공간 $V$에서 기저를 역변환시키는 행렬을 $A$라 할 때 $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+가 성립하므로
+(여기서 $A$, $A^{-1}$ 모두 $A$ 첨자표시로 나타낼 수 있음에 유의하여야 합니다.)
+벡터 $v = v^i e_i$에서 $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$
+즉, $[v]$에서 $[v]&amp;rsquo; = A [v]$로 $v$의 기저 표기가 변하기 때문에 contravariant 반변, 즉 기저변환과 반대로 변한다는 의미에서 contravariant vector 반변벡터라는 이름이 붙여졌다고 합니다.</description></item><item><title>- non-degenerate Hermitian form</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>복소값을 갖는 non-degenerate Hermitian form $(\cdot \mid \cdot)$ 또는
+실수값을 갖는 non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. 두번째 인자에서의 선형성 #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+복소벡터공간: Hermiticity 즉,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+또는 실벡터공간: symmetry 즉,
+$$(u \mid v) \ =\ (v \mid u)$$
+여기에서 유의할점은 1,2에서 $(\cdot \mid \cdot)$의 첫번째 인자는 conjugate-linear가 자동성립한다.</description></item><item><title>- A의 Hermitian Adjoint</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. $L : V \to V^*$ 정의 #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, 여기서 $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+여기서 주의할 사항은 $L$이 conjugate-linear map 이라는 점이다.
+2. $A^\dagger$ 정의 #
+$A^\dagger$는 $A$의 Hermitian adjoint 행렬을 나타내며 정의는 다음과 같다.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+따라서, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$이다. 이때, $A^\dagger(v) = A^\dagger v$, $A^T(\tilde{v}) = A^T\tilde{v}$ 이므로</description></item><item><title>- identity 행렬의 텐서곱 표현과 디랙 표기의 관계</title><link>https://osungh3956.github.io/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. 텐서 연산 #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. 선형연산자로서의 텐서 #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{여기서 } (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \text{ 라 정의하면} \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{그리고 } f(e_j) = e_j(f) \text{ 관계를 이용하면} \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. metric 듀얼의 이용 #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$</description></item><item><title>- 모든 군 표현은 유니터리 표현과 동등하다</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:38:16 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>소개 #
+이 글에서는 모든 군 표현이 유니터리 표현과 동등함을 증명할 것입니다. 이는 표현론에서 기본적인 결과로, 물리학과 수학에서 중요한 응용을 가지고 있습니다.
+정의와 배경 #
+표현의 동등성: 두 표현 $A$와 $B$는 다음을 만족하는 가역 행렬 $X$가 존재할 때 동등합니다:
+$$A = XBX^{-1}$$
+에르미트 연산자: 우리가 사용할 핵심 성질은 모든 에르미트 연산자가 대각화 가능하다는 것입니다.
+유니터리 표현과의 동등성 증명 #
+군 $G$의 표현 $D$에 대해 연산자 $S$를 다음과 같이 정의합시다:
+$$S = \sum_{g \in G} D(g)^{\dagger} D(g)$$</description></item><item><title>- 군 표현에서의 캐릭터 이론</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</link><pubDate>Mon, 31 Mar 2025 14:11:05 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/character_and_projector/</guid><description>1. 캐릭터의 정의 #
+표현 $D(g)$의 캐릭터는 표현 행렬의 대각합(trace)으로 정의됩니다:
+$$\chi_D(g) = \text{Tr}(D(g))$$
+2. 직교 관계 #
+행렬 요소에 대한 직교 관계식:
+$$\frac{n_a}{N}\sum_{g \in G} [D_a(g)]^*_{jk}[D_b(g)]_{lm} = \delta_{ab}\delta_{jl}\delta_{km}$$ 이로부터 캐릭터에 대한 직교 관계식을 유도할 수 있습니다:
+$$\frac{n_a}{N}\sum_{g \in G, j, l} [D_a(g)]^*_{jj}[D_b(g)]_{ll} = \sum_{j, l}\delta_{ab}\delta_{jl}\delta_{jl}$$ 즉:
+$$\frac{n_a}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = n_a\delta_{ab}$$ 또는
+$$\frac{1}{N}\sum_{g \in G} \chi D_a(g)^*\chi D_b(g) = \delta_{ab}$$ 이는 서로 다른 기약 표현에서 $g$의 캐릭터 함수들이 서로 직교함을 의미합니다.</description></item><item><title>- 리 대수 so(3)에서의 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:58:19 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</guid><description>1. so(3)의 기저 #
+리 대수 so(3)는 세 가지 요소로 구성된 기저를 가집니다: $L_x$, $L_y$, 그리고 $L_z$.
+$L_x$: $yz$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_y$: $zx$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_z$: $xy$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) 이러한 기저 요소들은 행렬로 명시적으로 표현될 수 있습니다:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 임의의 원소 $X \in \text{so}(3)$에 대해, 우리는 이를 선형 조합으로 표현할 수 있습니다: $X = xL_x + yL_y + zL_z$, 여기서 $[X] = (x, y, z)$</description></item><item><title>- 테일러 급수 전개</title><link>https://osungh3956.github.io/docs/supplementary/calculus/taylor_series/</link><pubDate>Thu, 20 Mar 2025 00:17:28 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/calculus/taylor_series/</guid><description>테일러 급수 소개 #
+테일러 급수는 함수를 단일 지점에서의 함수 도함수 값들로부터 계산된 항들의 무한합으로 표현한 것입니다. 이는 다항식 표현을 사용하여 함수를 근사화하는 방법을 제공합니다.
+기본 공식 #
+함수 $f(x)$의 점 $x = a$ 주변에서의 테일러 급수 전개는 다음과 같이 주어집니다:
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+여기서:
+$f^{(n)}(a)$는 점 $a$에서 평가된 $f$의 $n$차 도함수를 나타냅니다 $(x-a)$는 전개 지점으로부터의 거리입니다 대체 표기법 #
+$x-a = \Delta x$로 표기하면, 테일러 급수는 다음과 같이 쓸 수 있습니다:</description></item></channel></rss>

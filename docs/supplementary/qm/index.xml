@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>양자역학 on</title><link>https://osungh3956.github.io/docs/supplementary/qm/</link><description>Recent content in 양자역학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 21 Mar 2025 01:27:46 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/docs/supplementary/qm/index.xml" rel="self" type="application/rss+xml"/><item><title>- 양자역학에서의 정준 교환 관계</title><link>https://osungh3956.github.io/docs/supplementary/qm/canonical_commutation_relation/</link><pubDate>Wed, 12 Mar 2025 13:26:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/canonical_commutation_relation/</guid><description>정준 교환 관계 소개 #
+정준 교환 관계는 양자역학의 기본 원리 중 하나로, 위치 연산자와 운동량 연산자 사이의 관계를 확립합니다.
+에너지 고유상태로부터의 유도 #
+에너지 고유상태로부터 시작해봅시다:
+$$H|i\rangle = E_i |i\rangle, \quad H|f\rangle = E_f |f\rangle$$
+여기서 에너지 차이는 아인슈타인-플랑크 관계를 따릅니다:
+$$E_f - E_i = \hbar \omega$$
+교환자 분석 #
+교환자 $[x,H]$의 행렬 요소를 살펴봅시다:
+$$\langle i|[x,H]|f\rangle = (E_f - E_i) \langle i|x|f\rangle = \hbar \omega \langle i|x|f\rangle$$
+$[x,H]$가 $\langle i|x|f\rangle$의 시간 미분에 비례한다는 것을 관찰할 수 있으며, 이는 다음을 의미합니다:</description></item><item><title>- 파울리 행렬의 성질</title><link>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice/</link><pubDate>Fri, 14 Mar 2025 12:33:27 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice/</guid><description>1. 파울리 행렬의 기본 성질 #
+파울리 행렬은 다음과 같이 정의됩니다:
+$$ \sigma_x = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix},$$ $$ \quad \sigma_z = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} $$ 기저 ${|+\rangle, |-\rangle}\ $에서:
+$\sigma_z |+\rangle = (+1) |+\rangle$ $\sigma_z |-\rangle = (-1) |-\rangle$ 2. 고유값과 고유벡터 #
+$\sigma_x$ 에 대해, $$\sigma_x(a|+\rangle + b|-\rangle) = \lambda (a|+\rangle + b|-\rangle)$$</description></item><item><title>- 파울리 행렬과 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice-rotation/</link><pubDate>Sat, 15 Mar 2025 20:38:59 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice-rotation/</guid><description>1. 트레이스가 없는 에르미트 행렬의 벡터 공간 #
+(1) 기저: ${\sigma_x, \sigma_y, \sigma_z}$ #
+$\mathbf{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\sigma} = n_x \sigma_x + n_y \sigma_y + n_z \sigma_z \in V$ 내적: $X \cdot Y = \frac{1}{2}\text{tr}(XY)$ (2) 기저: ${\frac{1}{2}\sigma_x, \frac{1}{2}\sigma_y, \frac{1}{2}\sigma_z}$ #
+$\tilde{\sigma}_x = \frac{1}{2}\sigma_x$, $\tilde{\sigma}_y = \frac{1}{2}\sigma_y$, $\tilde{\sigma}_z = \frac{1}{2}\sigma_z$ $\mathbf{\tilde{\sigma}} = (\tilde{\sigma}_x, \tilde{\sigma}_y, \tilde{\sigma}_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\tilde{\sigma}} = n_x \tilde{\sigma}_x + n_y \tilde{\sigma}_y + n_z \tilde{\sigma}_z \in V$ 내적: $X \cdot Y = 2 \text{tr}(XY)$ 2.</description></item><item><title>- 평행이동 연산자</title><link>https://osungh3956.github.io/docs/supplementary/qm/translation_operator/</link><pubDate>Sun, 16 Mar 2025 17:05:55 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/translation_operator/</guid><description>1. 공간에서의 평행이동 대칭성 #
+두 상태 사이의 내적은 평행이동 변환 하에서 불변합니다:
+$\langle\phi|\psi\rangle = \langle\phi|T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x)|\psi\rangle$
+여기서 $T(\Delta x&amp;rsquo;)|x&amp;rsquo;\rangle = |x&amp;rsquo;+\Delta x&amp;rsquo;\rangle$입니다.
+따라서, $T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x) = 1$
+이는 $T(\Delta x&amp;rsquo;)$가 유니타리 연산자임을 의미합니다.
+2. 유니타리 연산자의 일반적 형태 #
+유니타리 연산자 $U$의 일반적인 형태는 다음과 같습니다:
+$U = e^{ik}$, 여기서 $k^{\dagger} = k$
+3. 평행이동 연산자의 표현 #
+평행이동 연산자는 다음과 같이 표현할 수 있습니다:
+$T(\Delta x&amp;rsquo;) = e^{i\Delta x&amp;rsquo;k}$</description></item><item><title>- 이체 문제 분석</title><link>https://osungh3956.github.io/docs/supplementary/qm/two_body_problem/</link><pubDate>Mon, 17 Mar 2025 13:12:59 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/two_body_problem/</guid><description>1. 질량 중심 $\mathbf{R}$ #
+전체 질량 $M$ $$M = m_1 + m_2$$
+질량 중심 $\mathbf{R}$ $$M \mathbf{R} = m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2$$
+따라서, $$\mathbf{R} = \frac{m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2}{m_1 + m_2}\tag{1}$$
+2. 상대 거리 $\mathbf{r}$ #
+두 물체 사이의 상대 거리 $$\mathbf{r} = \mathbf{r}_1 - \mathbf{r}_2\tag{2}$$
+3. 두 물체 시스템 운동 분석 #
+운동은 질량 중심의 운동과 두 물체 사이의 상대 운동의 조합으로 분석할 수 있습니다.
+방정식 (1)과 (2)로부터 $\mathbf{r}_1$과 $\mathbf{r}_2$를 $\mathbf{R}$과 $\mathbf{r}$의 항으로 표현할 수 있습니다:</description></item><item><title>- 리 대수 so(3)에서의 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:58:19 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</guid><description>1. so(3)의 기저 #
+리 대수 so(3)는 세 가지 요소로 구성된 기저를 가집니다: $L_x$, $L_y$, 그리고 $L_z$.
+$L_x$: $yz$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_y$: $zx$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_z$: $xy$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) 이러한 기저 요소들은 행렬로 명시적으로 표현될 수 있습니다:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 임의의 원소 $X \in \text{so}(3)$에 대해, 우리는 이를 선형 조합으로 표현할 수 있습니다: $X = xL_x + yL_y + zL_z$, 여기서 $[X] = (x, y, z)$</description></item><item><title>- 스핀 연산자 Sz를 이용한 유클리드 공간에서의 회전 행렬</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:13 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>소개 #
+이 문서는 회전축 $n_z$를 따라 스핀 연산자 $S_z$를 사용하여 유클리드 공간에서 회전 행렬을 표현하는 방법을 탐구합니다.
+각운동량 연산자 $L_z$ #
+각운동량 연산자 $L_z$는 다음과 같이 표현할 수 있습니다:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 이 연산자는 고유값 $+1$, $0$, $-1$을 가지며, 대응하는 고유벡터는 다음과 같습니다:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item><item><title>- 시간 진화 연산자</title><link>https://osungh3956.github.io/docs/supplementary/qm/time_evolution_operator/</link><pubDate>Fri, 21 Mar 2025 01:27:46 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/time_evolution_operator/</guid><description>1. 시간 대칭성: 슈뢰딩거 묘사 #
+두 상태 사이의 내적은 시간 진화 하에서 보존되어야 합니다:
+$\langle\phi|\psi\rangle = \langle\phi|U^{\dagger}(\Delta t)U(\Delta t)|\psi\rangle$, 여기서 $U(\Delta t)|\psi\rangle = |\psi;\Delta t\rangle$
+따라서, $U^{\dagger}(\Delta t)U(\Delta t) = 1$
+이는 $U(\Delta t)$가 유니타리 연산자임을 의미합니다.
+2. 유니타리 연산자 $U$의 일반적 형태 #
+$U=e^{i\Omega}$, 여기서 $\Omega^{\dagger} = \Omega$
+3. $U(\Delta t)$의 표현 #
+$U(\Delta t) = e^{i\Delta t \Omega}$
+4. 군 성질 검증 #
+$U(\Delta t_2)U(\Delta t_1) = U(\Delta t_1 + \Delta t_2)$의 성립:</description></item></channel></rss>

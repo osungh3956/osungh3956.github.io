@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>유니타리 변환 on</title><link>https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%83%80%EB%A6%AC-%EB%B3%80%ED%99%98/</link><description>Recent content in 유니타리 변환 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 16 Mar 2025 17:05:55 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%9C%A0%EB%8B%88%ED%83%80%EB%A6%AC-%EB%B3%80%ED%99%98/index.xml" rel="self" type="application/rss+xml"/><item><title>- 평행이동 연산자</title><link>https://osungh3956.github.io/docs/supplementary/qm/translation_operator/</link><pubDate>Sun, 16 Mar 2025 17:05:55 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/translation_operator/</guid><description>1. 공간에서의 평행이동 대칭성 #
+두 상태 사이의 내적은 평행이동 변환 하에서 불변합니다:
+$\langle\phi|\psi\rangle = \langle\phi|T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x)|\psi\rangle$
+여기서 $T(\Delta x&amp;rsquo;)|x&amp;rsquo;\rangle = |x&amp;rsquo;+\Delta x&amp;rsquo;\rangle$입니다.
+따라서, $T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x) = 1$
+이는 $T(\Delta x&amp;rsquo;)$가 유니타리 연산자임을 의미합니다.
+2. 유니타리 연산자의 일반적 형태 #
+유니타리 연산자 $U$의 일반적인 형태는 다음과 같습니다:
+$U = e^{ik}$, 여기서 $k^{\dagger} = k$
+3. 평행이동 연산자의 표현 #
+평행이동 연산자는 다음과 같이 표현할 수 있습니다:
+$T(\Delta x&amp;rsquo;) = e^{i\Delta x&amp;rsquo;k}$</description></item></channel></rss>

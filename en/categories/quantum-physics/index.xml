@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>quantum physics on</title><link>https://osungh3956.github.io/en/categories/quantum-physics/</link><description>Recent content in quantum physics on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 21 Mar 2025 01:27:44 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/categories/quantum-physics/index.xml" rel="self" type="application/rss+xml"/><item><title>- Properties of Pauli Matrices</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</link><pubDate>Fri, 14 Mar 2025 12:33:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</guid><description>1. Basic Properties of Pauli Matrices #
+The Pauli matrices are defined as:
+$$ \sigma_x = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix},$$ $$ \quad \sigma_z = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} $$ With basis ${|+\rangle, |-\rangle}$, where:
+$\sigma_z |+\rangle = +1 |+\rangle$ $\sigma_z |-\rangle = -1 |-\rangle$ 2. Eigenvalues and Eigenvectors #
+For $\sigma_x$: $$\sigma_x(a|+\rangle + b|-\rangle) = \lambda (a|+\rangle + b|-\rangle)$$</description></item><item><title>- Pauli Matrices and Rotation</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</link><pubDate>Sat, 15 Mar 2025 20:38:55 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</guid><description>1. Vector Space of Traceless Hermitian Matrices #
+(1) Basis: ${\sigma_x, \sigma_y, \sigma_z}$ #
+$\mathbf{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\sigma} = n_x \sigma_x + n_y \sigma_y + n_z \sigma_z \in V$ Inner product: $X \cdot Y = \frac{1}{2}\text{tr}(XY)$ (2) Basis: ${\frac{1}{2}\sigma_x, \frac{1}{2}\sigma_y, \frac{1}{2}\sigma_z}$ #
+$\tilde{\sigma}_x = \frac{1}{2}\sigma_x$, $\tilde{\sigma}_y = \frac{1}{2}\sigma_y$, $\tilde{\sigma}_z = \frac{1}{2}\sigma_z$ $\mathbf{\tilde{\sigma}} = (\tilde{\sigma}_x, \tilde{\sigma}_y, \tilde{\sigma}_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\tilde{\sigma}} = n_x \tilde{\sigma}_x + n_y \tilde{\sigma}_y + n_z \tilde{\sigma}_z \in V$ Inner product: $X \cdot Y = 2 \text{tr}(XY)$ 2.</description></item><item><title>- Translation Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</link><pubDate>Sun, 16 Mar 2025 17:05:52 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/translation_operator/</guid><description>1. Translational Symmetry in Space #
+The inner product between two states remains invariant under translation:
+$\langle\phi|\psi\rangle = \langle\phi|T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x)|\psi\rangle$
+where $T(\Delta x&amp;rsquo;)|x&amp;rsquo;\rangle = |x&amp;rsquo;+\Delta x&amp;rsquo;\rangle$
+Therefore, $T^{\dagger}(\Delta x&amp;rsquo;)T(\Delta x) = 1$
+This means that $T(\Delta x&amp;rsquo;)$ is a unitary operator.
+2. General Form of Unitary Operators #
+The general form of a unitary operator $U$ is:
+$U = e^{ik}$, where $k^{\dagger} = k$
+3. Representation of Translation Operator #
+The translation operator can be represented as:</description></item><item><title>- Time Evolution Operator</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</link><pubDate>Fri, 21 Mar 2025 01:27:44 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/time_evolution_operator/</guid><description>1. Time Symmetry: Schrödinger Picture #
+The inner product between two states should be preserved under time evolution:
+$\langle\phi|\psi\rangle = \langle\phi|U^{\dagger}(\Delta t)U(\Delta t)|\psi\rangle$, where $U(\Delta t)|\psi\rangle = |\psi;\Delta t\rangle$
+Therefore, $U^{\dagger}(\Delta t)U(\Delta t) = 1$
+This means that $U(\Delta t)$ is a unitary operator.
+2. General Form of Unitary Operator $U$ #
+$U=e^{i\Omega}$, where $\Omega^{\dagger} = \Omega$
+3. Representation of $U(\Delta t)$ #
+$U(\Delta t) = e^{i\Delta t \Omega}$
+4. Verification of Group Property #
+$U(\Delta t_2)U(\Delta t_1) = U(\Delta t_1 + \Delta t_2)$ holds:</description></item><item><title>- Continuous Spectra: Normalization and Completeness in Vector Spaces</title><link>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</link><pubDate>Thu, 13 Mar 2025 14:13:48 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</guid><description>Normalization in Continuous Spectra #
+In a vector space with continuous spectra, we can express states as follows:
+$$|\psi\rangle = \lim_{\Delta x \to 0} \sum_{n=-\infty}^{\infty} \Delta x \ \psi(n\Delta x)|n\Delta x\rangle$$
+$$|\phi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty} \Delta x \ \phi(m\Delta x)|m\Delta x\rangle$$
+The inner product between these states can be written as:
+$$\langle\phi|\psi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty}\sum_{n=-\infty}^{\infty} $$
+$$\left (\ \Delta x \ \phi^*(m\Delta x) \ \psi(n\Delta x) \ \Delta x \ \langle m\Delta x|n\Delta x\rangle\ \right )$$</description></item></channel></rss>

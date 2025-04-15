@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>군론 on</title><link>https://osungh3956.github.io/tags/%EA%B5%B0%EB%A1%A0/</link><description>Recent content in 군론 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 23:53:21 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EA%B5%B0%EB%A1%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>- 표현론에서의 슈어 보조정리</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:24 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>슈어 보조정리(Schur&amp;rsquo;s lemma)는 표현론에서 기약표현 사이의 연동 연산자(intertwining operators)를 특징짓는 기본적인 결과입니다. 이 보조정리는 두 가지 중요한 부분으로 구성됩니다.
+제1부: 서로 다른 기약표현 사이의 연동 사상 #
+만약 $D_a(g)$와 $D_b(g)$가 군 $G$의 서로 동등하지 않은 기약표현이고, $A$가 모든 $g \in G$에 대해 다음을 만족하는 선형 연산자라면:
+$$D_a(g)A = AD_b(g)$$
+그러면 $A = 0$입니다.
+증명: #
+$A|\mu\rangle = 0$을 만족하는 영이 아닌 벡터 $|\mu\rangle$가 존재한다고 가정합시다. $P$를 $|\mu\rangle$에 대한 투영 연산자라고 합시다.</description></item><item><title>- 군 표현론에서의 직교성 관계</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:53:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>서론 #
+이 문서는 유한 군의 기약 표현이 어떻게 작용하는지 이해하는 데 기본이 되는 군 표현론에서의 직교성 관계에 대해 탐구합니다.
+이중선형 연산자와 변환 특성 #
+먼저 이중선형 연산자를 정의합니다:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ 이 연산자가 표현 행렬 $D_a(g_1)$에 의해 변환될 때:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ $g&amp;rsquo;=g_1g^{-1}$로 치환하면, $g=g&amp;rsquo;^{-1}g_1$이 됩니다. 이를 통해 다음을 얻습니다:
+$$\begin{align} D_a(g_1)A^{ab}_{jl} &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g'^{-1}g_1) \\ &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g')D_b(g_1) \\ &amp;= A^{ab}_{jl}D_b(g_1) \end{align}$$ 슈어의 보조정리 적용 #
+슈어의 보조정리에 의해 다음을 추론할 수 있습니다:</description></item><item><title>- 리 대수 so(3)에서의 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:58:19 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_in_so3/</guid><description>1. so(3)의 기저 #
+리 대수 so(3)는 세 가지 요소로 구성된 기저를 가집니다: $L_x$, $L_y$, 그리고 $L_z$.
+$L_x$: $yz$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_y$: $zx$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) $L_z$: $xy$-평면에서의 회전을 나타냅니다 ($\sigma_y$와 유사) 이러한 기저 요소들은 행렬로 명시적으로 표현될 수 있습니다:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 임의의 원소 $X \in \text{so}(3)$에 대해, 우리는 이를 선형 조합으로 표현할 수 있습니다: $X = xL_x + yL_y + zL_z$, 여기서 $[X] = (x, y, z)$</description></item></channel></rss>

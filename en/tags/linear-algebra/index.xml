@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linear algebra on</title><link>https://osungh3956.github.io/en/tags/linear-algebra/</link><description>Recent content in linear algebra on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 17:37:05 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml"/><item><title>- The Intuitive Nature of Einstein Notation's Tensor Index Notation Using the Schouten Convention</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ The Schouten convention refers to the notation of attaching prime symbols to indices.
+1. Vector as a Contravariant Vector #
+In a vector space $V$, when the matrix that transforms the basis is $A$, we have $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+(Note that both $A$ and $A^{-1}$ can be represented using the $A$ index notation.)
+For a vector $v = v^i e_i$: $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$</description></item><item><title>- Non-degenerate Hermitian Form</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>Complex-valued non-degenerate Hermitian form $(\cdot \mid \cdot)$ or
+Real-valued non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. Linearity in the Second Argument #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+Complex vector space: Hermiticity, i.e.,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+Or real vector space: symmetry, i.e.,
+$$(u \mid v) \ =\ (v \mid u)$$
+Note that from 1 and 2, the first argument of $(\cdot \mid \cdot)$ is automatically conjugate-linear.</description></item><item><title>- Hermitian Adjoint of A</title><link>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. Definition of $L : V \to V^*$ #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, where $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+It&amp;rsquo;s important to note that $L$ is a conjugate-linear map.
+2. Definition of $A^\dagger$ #
+$A^\dagger$ represents the Hermitian adjoint matrix of $A$ and is defined as follows.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+Therefore, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$. Since $A^\dagger(v) = A^\dagger v$ and $A^T(\tilde{v}) = A^T\tilde{v}$, we have</description></item><item><title>- The Relationship Between Tensor Product Representation of Identity Matrix and Dirac Notation</title><link>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. Tensor Operations #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. Tensors as Linear Operators #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{,where }\ (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{,where } \ f(e_j) = e_j(f) \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. Using Metric Duality #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$
+4. Definition of Tensor Product Inner Product #
+$$(v_1 \otimes w_1|v_2 \otimes w_2) = (v_1|v_2) (w_1|w_2)$$</description></item><item><title>- Schur's Lemma in Representation Theory</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>Schur&amp;rsquo;s lemma is a fundamental result in representation theory that characterizes the intertwining operators between irreducible representations. The lemma consists of two important parts.
+Part I: Intertwining Maps Between Different Irreps #
+If $D_a(g)$ and $D_b(g)$ are inequivalent irreducible representations of a group $G$, and $A$ is a linear operator satisfying:
+$$D_a(g)A = AD_b(g)$$
+for all $g \in G$, then $A = 0$.
+Proof: #
+Suppose there exists a non-zero vector $|\mu\rangle$ such that $A|\mu\rangle = 0$.</description></item><item><title>- All Group Representation is Equivalent to Unitary Representation</title><link>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:37:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>Introduction #
+In this article, we will prove that all group representations are equivalent to unitary representations. This is a fundamental result in representation theory with important applications in physics and mathematics.
+Definitions and Background #
+Equivalence of Representations: Two representations $A$ and $B$ are equivalent if and only if there exists an invertible matrix $X$ such that:
+$$A = XBX^{-1}$$
+Hermitian Operators: A key property we&amp;rsquo;ll use is that all Hermitian operators are diagonalizable.</description></item><item><title>- Properties of Pauli Matrices</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</link><pubDate>Fri, 14 Mar 2025 12:33:17 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice/</guid><description>1. Basic Properties of Pauli Matrices #
+The Pauli matrices are defined as:
+$$ \sigma_x = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix},$$ $$ \quad \sigma_z = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} $$ With basis ${|+\rangle, |-\rangle}$, where:
+$\sigma_z |+\rangle = +1 |+\rangle$ $\sigma_z |-\rangle = -1 |-\rangle$ 2. Eigenvalues and Eigenvectors #
+For $\sigma_x$: $$\sigma_x(a|+\rangle + b|-\rangle) = \lambda (a|+\rangle + b|-\rangle)$$</description></item><item><title>- Pauli Matrices and Rotation</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</link><pubDate>Sat, 15 Mar 2025 20:38:55 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/pauli_matrice-rotation/</guid><description>1. Vector Space of Traceless Hermitian Matrices #
+(1) Basis: ${\sigma_x, \sigma_y, \sigma_z}$ #
+$\mathbf{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\sigma} = n_x \sigma_x + n_y \sigma_y + n_z \sigma_z \in V$ Inner product: $X \cdot Y = \frac{1}{2}\text{tr}(XY)$ (2) Basis: ${\frac{1}{2}\sigma_x, \frac{1}{2}\sigma_y, \frac{1}{2}\sigma_z}$ #
+$\tilde{\sigma}_x = \frac{1}{2}\sigma_x$, $\tilde{\sigma}_y = \frac{1}{2}\sigma_y$, $\tilde{\sigma}_z = \frac{1}{2}\sigma_z$ $\mathbf{\tilde{\sigma}} = (\tilde{\sigma}_x, \tilde{\sigma}_y, \tilde{\sigma}_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\tilde{\sigma}} = n_x \tilde{\sigma}_x + n_y \tilde{\sigma}_y + n_z \tilde{\sigma}_z \in V$ Inner product: $X \cdot Y = 2 \text{tr}(XY)$ 2.</description></item><item><title>- Rotations in the Lie Algebra so(3)</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</link><pubDate>Tue, 18 Mar 2025 21:55:38 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_in_so3/</guid><description>1. Basis of so(3) #
+The Lie algebra so(3) has a basis consisting of three elements: $L_x$, $L_y$, and $L_z$.
+$L_x$: Represents rotation in the $yz$-plane (analogous to $\sigma_y$) $L_y$: Represents rotation in the $zx$-plane (analogous to $\sigma_y$) $L_z$: Represents rotation in the $xy$-plane (analogous to $\sigma_y$) These basis elements can be explicitly written as matrices:
+$$L_x = \begin{pmatrix} 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -i \\ 0 &amp; i &amp; 0 \end{pmatrix}$$ $$L_y = \begin{pmatrix} 0 &amp; 0 &amp; i \\ 0 &amp; 0 &amp; 0 \\ -i &amp; 0 &amp; 0 \end{pmatrix}$$ $$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ For any element $X \in \text{so}(3)$, we can express it as a linear combination: $X = xL_x + yL_y + zL_z$, where $[X] = (x, y, z)$</description></item><item><title>- Rotation Matrix in Euclidean Space Using Spin Operator Sz</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:05 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>Introduction #
+This document explores how to represent rotation matrices in Euclidean space using the spin operator $S_z$ along the rotation axis $n_z$.
+Angular Momentum Operator $L_z$ #
+The angular momentum operator $L_z$ can be represented as:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ This operator has eigenvalues $+1$, $0$, and $-1$ with corresponding eigenvectors:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item></channel></rss>

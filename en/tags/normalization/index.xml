@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>normalization on</title><link>https://osungh3956.github.io/en/tags/normalization/</link><description>Recent content in normalization on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 13 Mar 2025 14:13:48 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/normalization/index.xml" rel="self" type="application/rss+xml"/><item><title>- Continuous Spectra: Normalization and Completeness in Vector Spaces</title><link>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</link><pubDate>Thu, 13 Mar 2025 14:13:48 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</guid><description>Normalization in Continuous Spectra #
+In a vector space with continuous spectra, we can express states as follows:
+$$|\psi\rangle = \lim_{\Delta x \to 0} \sum_{n=-\infty}^{\infty} \Delta x \ \psi(n\Delta x)|n\Delta x\rangle$$
+$$|\phi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty} \Delta x \ \phi(m\Delta x)|m\Delta x\rangle$$
+The inner product between these states can be written as:
+$$\langle\phi|\psi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty}\sum_{n=-\infty}^{\infty} $$
+$$\left (\ \Delta x \ \phi^*(m\Delta x) \ \psi(n\Delta x) \ \Delta x \ \langle m\Delta x|n\Delta x\rangle\ \right )$$</description></item></channel></rss>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>푸리에 급수 on</title><link>https://osungh3956.github.io/tags/%ED%91%B8%EB%A6%AC%EC%97%90-%EA%B8%89%EC%88%98/</link><description>Recent content in 푸리에 급수 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 13 Mar 2025 00:46:18 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%ED%91%B8%EB%A6%AC%EC%97%90-%EA%B8%89%EC%88%98/index.xml" rel="self" type="application/rss+xml"/><item><title>- 푸리에 급수에서 푸리에 변환으로의 발전</title><link>https://osungh3956.github.io/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:46:18 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>서론 #
+이 문서는 양자역학과 신호처리에서 기본이 되는 푸리에 급수에서 푸리에 변환으로의 수학적 발전 과정을 설명합니다.
+벡터 기저 표현으로서의 푸리에 급수 #
+벡터 기저 형태의 푸리에 급수 표현은 다음과 같이 작성할 수 있습니다:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+이 합에 면적의 의미를 부여하기 위해, $n$을 x축 상의 값 $x&amp;rsquo;$로 볼 수 있습니다:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$
+여기서 $\Delta x&amp;rsquo; = 1$입니다.
+$\Delta x&amp;rsquo; \to 0$이고 $n \Delta x&amp;rsquo; = x&amp;rsquo;$일 때, 이를 적분으로 표현할 수 있습니다:</description></item></channel></rss>

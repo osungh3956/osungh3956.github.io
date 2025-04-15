@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hamiltonian on</title><link>https://osungh3956.github.io/en/tags/hamiltonian/</link><description>Recent content in Hamiltonian on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 17 Mar 2025 13:12:59 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/tags/hamiltonian/index.xml" rel="self" type="application/rss+xml"/><item><title>- Two-Body Problem Analysis</title><link>https://osungh3956.github.io/en/docs/supplementary/qm/two_body_problem/</link><pubDate>Mon, 17 Mar 2025 13:12:59 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/qm/two_body_problem/</guid><description>1. Center of Mass $\mathbf{R}$ #
+Total Mass $M$ $$M = m_1 + m_2$$ Center of Mass $\mathbf{R}$ $$M \mathbf{R} = m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2$$ Therefore, $$\mathbf{R} = \frac{m_1 \mathbf{r}_1 + m_2 \mathbf{r}_2}{m_1 + m_2}\tag{1}$$
+2. Relative Distance $\mathbf{r}$ #
+The relative distance between two bodies $$\mathbf{r} = \mathbf{r}_1 - \mathbf{r}_2\tag{2}$$
+3. Analysis of Two-Body System Motion #
+The motion can be analyzed as a combination of the center of mass motion and the relative motion between the two bodies.</description></item></channel></rss>

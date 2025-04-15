@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>쌍대공간 on</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/</link><description>Recent content in 쌍대공간 on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/index.xml" rel="self" type="application/rss+xml"/><item><title>- 벡터와 듀얼벡터</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/vectors-dualvectors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/vectors-dualvectors/</guid><description>1. 벡터, 듀얼벡터의 성질의 정의를 통한 기저와 듀얼 기저의 정규직교성 유도 #
+제가 보고 있는 An Introduction to Tensors and Group Theory for Physicists 교재에서는 $$ e^i(v) = v^i, \quad f(e_i) = f_i $$ 로 정의합니다.
+이 정의를 통해 $$ e^j(e_i) = \delta_i^j $$ 라는 성질을 만족함을 설명합니다.
+2. 함수의 선형성 #
+그러나 함수의 다음 성질(정의)을 이용하면 간단하게 정리할 수 있습니다: $$ (c\ g_1 + g_2)(x) = c\ g_1(x) + g_2(x) $$</description></item><item><title>- 듀얼 기저 vs metric 듀얼</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/dual-basis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/dual-basis/</guid><description>1. metric 듀얼의 정의 #
+$L : V \to V^*, \quad v \mapsto \tilde{v}$, 여기에서 $\tilde{v}(w) = (v|w)$, $( \cdot | \cdot )$는 non-degenerate Hermitian form 이고 $\tilde{e}_i = L(e_i)$ 일때 이를 $e_i$의 metric dual 이라고 한다. metric이라는 말이 물리학적으로는 유클리드 공간이나 민코프스키 공간에서 주로 사용되나
+수학적으로는 non-degenerate Hermitian form 을 갖춘 복소벡터공간도 metric 공간이므로 이런 의미에서 metric 이라는 수식어가 붙은 것 아닌가 한다.
+즉, positive-definite non-degenerate Hermitian form(복소내적) 또는 민코프스키 metric을 갖춘 벡터공간에 대해 positive-definite non-degenerate Hermitian form 또는 민코프스키 metric을 이용하여 정의되는 듀얼을 metric 듀얼이라고 하는 것으로 보인다.</description></item><item><title>- Fourier 변환에 대하여</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/fourier-transform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/fourier-transform/</guid><description>1. 유한한 길이의 구간에서의 Fourier 급수로 표시되는 square integrable 함수 복소내적공간 $L^2[a, b]$ #
+내적 정의: $$( f | g ) = \frac{1}{b-a} \int_a^b dx , f^*(x) g(x)$$
+기저의 정규화: Kronecker delta 함수, 즉 $( e_m | e_n ) = \delta_{mn}$
+여기에서 $e_n(x) = e^{i \frac{2 \pi}{(b-a)/n}x} = e^{i \frac{2n \pi}{b-a}x}$, 즉 $e_n(x) = e^{i \frac{2n \pi}{b-a}x}$
+2. $\mathbb{R}$에서 Fourier 변환 형식으로 표현되는 square integrable 함수 복소내적공간 $L^2(\mathbb{R})$ #
+변환 형식: 위치 $x \leftrightarrow$ 운동량 $p$ (또는 파수 $k$) 또는 시간 $t \leftrightarrow$ 각속도 $\omega$ (또는 진동수 $f$)</description></item><item><title>- 선형연산자의 전치에 대한 고찰</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/transpose-operator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/transpose-operator/</guid><description>1. $ A $ 와 $ A^T $ 의 관계 #
+$$ e_i = A e_{i&amp;rsquo;} = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} $$
+한편,
+$$ e_j(e^{i&amp;rsquo;}) = e^{i&amp;rsquo;} (e_j) = e^{i&amp;rsquo;} (A_j^{k&amp;rsquo;} e_{k&amp;rsquo;}) $$
+$$ = A_j^{k&amp;rsquo;} e^{i&amp;rsquo;} (e_{k&amp;rsquo;}) = A_j^{k&amp;rsquo;} \delta_{i&amp;rsquo;k&amp;rsquo;} = A_j^{i&amp;rsquo;} $$
+이므로, $ e^{i&amp;rsquo;} = A_j^{i&amp;rsquo;} e^j $ 이 성립하고 이것은, $ (e&amp;rsquo;)^i = \sum_j (A^T)_i^{j} e^j = A^T e^i $ 와 같이 해석된다.
+따라서,
+$$ A : W \to V,\quad e_{i&amp;rsquo;} \mapsto e_i $$</description></item><item><title>- 전치행렬에 대한 고찰</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/transpose-matrix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/transpose-matrix/</guid><description>1. $[A^T]_{B^*} = ([A]_B)^T$ #
+벡터공간 $V$에서 행렬 $A$는 다음과 같은 관계식이 성립한다. 즉, $$ \sub{e&amp;rsquo;}{i} = Ae_i = A_{i}^j e_j $$
+이고, 이것은 쌍대공간 $V^{\ast}$에서
+$$ e^{i} = \sub{A}{j}^i e&amp;rsquo;^{\ j} (= A^{T} e&amp;rsquo;^{\ i}) $$ 에 대응한다.
+$A_{j}^{i}$는 $A_{i}^{j}$의 행과 열이 바뀐 전치(transpose)행렬의 인자임을 알 수 있으므로 $$ A_{j}^{i} e&amp;rsquo;^{\ j} = \sum_j (A^T)_i^{j} e&amp;rsquo;^{\ j} $$ 로 바꾸어 표기할 수 있고, 이는 $A^T e&amp;rsquo;^{\ i}$에 해당한다. 즉, $$ A^T e&amp;rsquo;^{\ i} = \sum_j (A^T)_i^{j} e&amp;rsquo;^{\ j} $$ 라 나타낼 수 있다.</description></item><item><title>- L²[a, b]에서의 디랙 델타 함수와 쌍대공간에서의 디랙 델타 범함수</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/dirac-delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/dual-spaces/dirac-delta/</guid><description>1. 순수한 벡터공간으로서의 $L^2[a, b]$ #
+실수 구간 $[a, b]$ 에서 square integrable 한 복소값을 갖는 함수의 모든 집합은 복소벡터공간을 이룬다.
+square integrable 함수 $f$ 의 의미 : $$ \int_a^b |f(x)|^2 dx &amp;lt; \infty $$
+2. 완비된 내적공간으로서의 $L^2[a, b]$, 즉 Hilbert 공간 #
+내적의 정의 : $$ (f | g) = \frac{1}{b-a} \int_a^b f^*(x) g(x) dx $$
+내적 관점에서 square integrable 의 의미 : $$ \int_a^b |f(x)|^2 dx = (f | f) = |f|^2 &amp;lt; \infty $$</description></item></channel></rss>

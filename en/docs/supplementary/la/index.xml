@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linear Algebra on</title><link>https://osungh3956.github.io/en/docs/supplementary/la/</link><description>Recent content in Linear Algebra on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 13 Mar 2025 14:13:48 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/en/docs/supplementary/la/index.xml" rel="self" type="application/rss+xml"/><item><title>- Active and Passive Transformations</title><link>https://osungh3956.github.io/en/docs/supplementary/la/active-passive-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/active-passive-transformation/</guid><description>Watch Lecture Video on YouTube &amp;gt; 1. Basis Change ↔ Vector &amp;amp; Operator(Matrix) Transformation #
+$${|base\rangle} \to {U^\dagger|base\rangle}$$ $$\Leftrightarrow \quad |\psi\rangle \to U|\psi\rangle, A \to UAU^\dagger (|a\rangle \to U|a\rangle)$$
+2. Expectation Value $\langle A \rangle$ transformation #
+$$\langle\psi|A|\psi\rangle \to \langle\psi&amp;rsquo;|A|\psi&amp;rsquo;\rangle \quad (|\psi&amp;rsquo;\rangle = U|\psi\rangle)$$
+or
+$$\langle\psi|A|\psi\rangle \to \langle\psi|U^\dagger AU|\psi\rangle$$
+Hence,
+Active: $|\psi\rangle \to U|\psi\rangle, \quad A \to A$
+$\Leftrightarrow$
+Passive: $|\psi\rangle \to |\psi\rangle, \quad A \to U^\dagger AU$</description></item><item><title>- Development from Fourier Series to Fourier Transform</title><link>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:45:26 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>Introduction #
+This document explains the mathematical development from Fourier series to Fourier transform, which is fundamental in quantum mechanics and signal processing.
+Vector Basis Representation of Fourier Series #
+The Fourier series representation in vector basis form can be written as:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+To give this summation a meaning of area, we can view $n$ as a value $x&amp;rsquo;$ on the x-axis:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$</description></item><item><title>- Continuous Spectra: Normalization and Completeness in Vector Spaces</title><link>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</link><pubDate>Thu, 13 Mar 2025 14:13:48 +0900</pubDate><guid>https://osungh3956.github.io/en/docs/supplementary/la/continuous_spectra/</guid><description>Normalization in Continuous Spectra #
+In a vector space with continuous spectra, we can express states as follows:
+$$|\psi\rangle = \lim_{\Delta x \to 0} \sum_{n=-\infty}^{\infty} \Delta x \ \psi(n\Delta x)|n\Delta x\rangle$$
+$$|\phi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty} \Delta x \ \phi(m\Delta x)|m\Delta x\rangle$$
+The inner product between these states can be written as:
+$$\langle\phi|\psi\rangle = \lim_{\Delta x \to 0} \sum_{m=-\infty}^{\infty}\sum_{n=-\infty}^{\infty} $$
+$$\left (\ \Delta x \ \phi^*(m\Delta x) \ \psi(n\Delta x) \ \Delta x \ \langle m\Delta x|n\Delta x\rangle\ \right )$$</description></item></channel></rss>

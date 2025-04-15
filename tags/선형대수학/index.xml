@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>선형대수학 on</title><link>https://osungh3956.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</link><description>Recent content in 선형대수학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 30 Mar 2025 17:38:16 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- Schouten convention을 사용한 아인슈타인 규약의 텐서식 첨자 표기의 직관성</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/linear-operators/schouten-convention/</guid><description>~ Schouten convention은 프라임 기호를 첨자에 붙이는 표기법을 말합니다.
+1. 반변벡터(contravariant vector)로서의 벡터 #
+벡터공간 $V$에서 기저를 역변환시키는 행렬을 $A$라 할 때 $$e_i = A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = A e_{i&amp;rsquo;} \quad (e_{i&amp;rsquo;} = A_{i&amp;rsquo;}^j e_j = A^{-1} e_i)$$
+가 성립하므로
+(여기서 $A$, $A^{-1}$ 모두 $A$ 첨자표시로 나타낼 수 있음에 유의하여야 합니다.)
+벡터 $v = v^i e_i$에서 $$v = v^i A_i^{j&amp;rsquo;} e_{j&amp;rsquo;} = (A_i^{j&amp;rsquo;} v^i) e_{j&amp;rsquo;} = v^{j&amp;rsquo;} e_{j&amp;rsquo;}$$
+즉, $[v]$에서 $[v]&amp;rsquo; = A [v]$로 $v$의 기저 표기가 변하기 때문에 contravariant 반변, 즉 기저변환과 반대로 변한다는 의미에서 contravariant vector 반변벡터라는 이름이 붙여졌다고 합니다.</description></item><item><title>- non-degenerate Hermitian form</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>복소값을 갖는 non-degenerate Hermitian form $(\cdot \mid \cdot)$ 또는
+실수값을 갖는 non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. 두번째 인자에서의 선형성 #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+복소벡터공간: Hermiticity 즉,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+또는 실벡터공간: symmetry 즉,
+$$(u \mid v) \ =\ (v \mid u)$$
+여기에서 유의할점은 1,2에서 $(\cdot \mid \cdot)$의 첫번째 인자는 conjugate-linear가 자동성립한다.</description></item><item><title>- A의 Hermitian Adjoint</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/hermitian-adjoint/</guid><description>1. $L : V \to V^*$ 정의 #
+$L : V \to V^*$, $v \mapsto \tilde{v}$, 여기서 $L(v)(w) = \tilde{v}(w) = (v \mid w)$
+여기서 주의할 사항은 $L$이 conjugate-linear map 이라는 점이다.
+2. $A^\dagger$ 정의 #
+$A^\dagger$는 $A$의 Hermitian adjoint 행렬을 나타내며 정의는 다음과 같다.
+$$A^\dagger : V \to V, \quad A^\dagger = L^{-1} \circ A^T \circ L$$
+따라서, $A^\dagger(v) = L^{-1}(A^T(\tilde{v}))$이다. 이때, $A^\dagger(v) = A^\dagger v$, $A^T(\tilde{v}) = A^T\tilde{v}$ 이므로</description></item><item><title>- identity 행렬의 텐서곱 표현과 디랙 표기의 관계</title><link>https://osungh3956.github.io/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/tensors/tensor-product/the-relationship-between-tensor-product-representation-of-identity-matrix-and-dirac-notation/</guid><description>1. 텐서 연산 #
+$$(e^i \otimes e_j)(v,f) = e^i(v) e_j(f)$$
+2. 선형연산자로서의 텐서 #
+\begin{equation*} \begin{aligned} (e^i \otimes e_j)(\boldsymbol{v},f) &amp;amp;= f((e^i \otimes e_j)(\boldsymbol{v})) \\ \text{여기서 } (e^i \otimes e_j)(\boldsymbol{v}) = e^i(\boldsymbol{v}) e_j \text{ 라 정의하면} \\ &amp;amp;= f(e^i(\boldsymbol{v}) e_j) \\ &amp;amp;= e^i(\boldsymbol{v}) f(e_j) \\ \text{그리고 } f(e_j) = e_j(f) \text{ 관계를 이용하면} \\ &amp;amp;= e^i(\boldsymbol{v}) e_j(f) \end{aligned} \end{equation*}
+3. metric 듀얼의 이용 #
+$$(e^i(v) e_j(f) = (e_i | v) (e^j | f)$$</description></item><item><title>- 표현론에서의 슈어 보조정리</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:24 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>슈어 보조정리(Schur&amp;rsquo;s lemma)는 표현론에서 기약표현 사이의 연동 연산자(intertwining operators)를 특징짓는 기본적인 결과입니다. 이 보조정리는 두 가지 중요한 부분으로 구성됩니다.
+제1부: 서로 다른 기약표현 사이의 연동 사상 #
+만약 $D_a(g)$와 $D_b(g)$가 군 $G$의 서로 동등하지 않은 기약표현이고, $A$가 모든 $g \in G$에 대해 다음을 만족하는 선형 연산자라면:
+$$D_a(g)A = AD_b(g)$$
+그러면 $A = 0$입니다.
+증명: #
+$A|\mu\rangle = 0$을 만족하는 영이 아닌 벡터 $|\mu\rangle$가 존재한다고 가정합시다. $P$를 $|\mu\rangle$에 대한 투영 연산자라고 합시다.</description></item><item><title>- 모든 군 표현은 유니터리 표현과 동등하다</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</link><pubDate>Sun, 30 Mar 2025 17:38:16 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/unitary_representation/</guid><description>소개 #
+이 글에서는 모든 군 표현이 유니터리 표현과 동등함을 증명할 것입니다. 이는 표현론에서 기본적인 결과로, 물리학과 수학에서 중요한 응용을 가지고 있습니다.
+정의와 배경 #
+표현의 동등성: 두 표현 $A$와 $B$는 다음을 만족하는 가역 행렬 $X$가 존재할 때 동등합니다:
+$$A = XBX^{-1}$$
+에르미트 연산자: 우리가 사용할 핵심 성질은 모든 에르미트 연산자가 대각화 가능하다는 것입니다.
+유니터리 표현과의 동등성 증명 #
+군 $G$의 표현 $D$에 대해 연산자 $S$를 다음과 같이 정의합시다:
+$$S = \sum_{g \in G} D(g)^{\dagger} D(g)$$</description></item><item><title>- 파울리 행렬과 회전</title><link>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice-rotation/</link><pubDate>Sat, 15 Mar 2025 20:38:59 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/pauli_matrice-rotation/</guid><description>1. 트레이스가 없는 에르미트 행렬의 벡터 공간 #
+(1) 기저: ${\sigma_x, \sigma_y, \sigma_z}$ #
+$\mathbf{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\sigma} = n_x \sigma_x + n_y \sigma_y + n_z \sigma_z \in V$ 내적: $X \cdot Y = \frac{1}{2}\text{tr}(XY)$ (2) 기저: ${\frac{1}{2}\sigma_x, \frac{1}{2}\sigma_y, \frac{1}{2}\sigma_z}$ #
+$\tilde{\sigma}_x = \frac{1}{2}\sigma_x$, $\tilde{\sigma}_y = \frac{1}{2}\sigma_y$, $\tilde{\sigma}_z = \frac{1}{2}\sigma_z$ $\mathbf{\tilde{\sigma}} = (\tilde{\sigma}_x, \tilde{\sigma}_y, \tilde{\sigma}_z)$ $\mathbf{n} = (n_x, n_y, n_z)$ $\mathbf{n} \cdot \mathbf{\tilde{\sigma}} = n_x \tilde{\sigma}_x + n_y \tilde{\sigma}_y + n_z \tilde{\sigma}_z \in V$ 내적: $X \cdot Y = 2 \text{tr}(XY)$ 2.</description></item><item><title>- 스핀 연산자 Sz를 이용한 유클리드 공간에서의 회전 행렬</title><link>https://osungh3956.github.io/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</link><pubDate>Wed, 19 Mar 2025 22:18:13 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/qm/rotation_by_sz_in_euclidean_space/</guid><description>소개 #
+이 문서는 회전축 $n_z$를 따라 스핀 연산자 $S_z$를 사용하여 유클리드 공간에서 회전 행렬을 표현하는 방법을 탐구합니다.
+각운동량 연산자 $L_z$ #
+각운동량 연산자 $L_z$는 다음과 같이 표현할 수 있습니다:
+$$L_z = \begin{pmatrix} 0 &amp; -i &amp; 0 \\ i &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}$$ 이 연산자는 고유값 $+1$, $0$, $-1$을 가지며, 대응하는 고유벡터는 다음과 같습니다:
+$$|+1\rangle = \frac{1}{\sqrt{2}}(1, i, 0)$$ $$|0\rangle = (0, 0, 1)$$ $$|-1\rangle = \frac{1}{\sqrt{2}}(1, -i, 0)$$</description></item></channel></rss>

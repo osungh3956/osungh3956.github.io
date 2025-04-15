@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ch.4 Tensor Operators on</title><link>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/</link><description>Recent content in Ch.4 Tensor Operators on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:49 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/index.xml" rel="self" type="application/rss+xml"/><item><title>- 텐서 연산자</title><link>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:49 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. 리 군 표현 #
+$D(\alpha)$는 리 군 $G$의 원소 $g$를 나타내며, 여기서 $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$이고, $g(0) = e$이므로 $D(0) = 1$입니다. 따라서,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+여기서,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+또한, 리 대수의 원소 $X$는 다음과 같이 표현할 수 있습니다.
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. 리 대수와 부분대수 #
+$J_a$가 $G$의 리 대수의 원소이고, $X_a$가 부분대수의 원소라면,</description></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>내적공간 on</title><link>https://osungh3956.github.io/tags/%EB%82%B4%EC%A0%81%EA%B3%B5%EA%B0%84/</link><description>Recent content in 내적공간 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 01 Mar 2025 10:00:00 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/tags/%EB%82%B4%EC%A0%81%EA%B3%B5%EA%B0%84/index.xml" rel="self" type="application/rss+xml"/><item><title>- non-degenerate Hermitian form</title><link>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</link><pubDate>Sat, 01 Mar 2025 10:00:00 +0900</pubDate><guid>https://osungh3956.github.io/docs/jeevanjee/vector-spaces/hermitian-form/non-degenerate-hermitian-form/</guid><description>복소값을 갖는 non-degenerate Hermitian form $(\cdot \mid \cdot)$ 또는
+실수값을 갖는 non-degenerate symmetric form $(\cdot \mid \cdot)$
+1. 두번째 인자에서의 선형성 #
+$$(u \mid v_1 + c\ v_2) \ =\ (u \mid v_1) \ +\ c\ (u \mid v_2)$$
+2. Hermiticity #
+복소벡터공간: Hermiticity 즉,
+$$(u \mid v) \ =\ (v \mid u)^*$$
+또는 실벡터공간: symmetry 즉,
+$$(u \mid v) \ =\ (v \mid u)$$
+여기에서 유의할점은 1,2에서 $(\cdot \mid \cdot)$의 첫번째 인자는 conjugate-linear가 자동성립한다.</description></item></channel></rss>

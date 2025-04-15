@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>수리물리학 on</title><link>https://osungh3956.github.io/categories/%EC%88%98%EB%A6%AC%EB%AC%BC%EB%A6%AC%ED%95%99/</link><description>Recent content in 수리물리학 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 08 Apr 2025 20:30:49 +0900</lastBuildDate><atom:link href="https://osungh3956.github.io/categories/%EC%88%98%EB%A6%AC%EB%AC%BC%EB%A6%AC%ED%95%99/index.xml" rel="self" type="application/rss+xml"/><item><title>- 표현론에서의 슈어 보조정리</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</link><pubDate>Sun, 30 Mar 2025 14:34:24 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/schurs_lemma/</guid><description>슈어 보조정리(Schur&amp;rsquo;s lemma)는 표현론에서 기약표현 사이의 연동 연산자(intertwining operators)를 특징짓는 기본적인 결과입니다. 이 보조정리는 두 가지 중요한 부분으로 구성됩니다.
+제1부: 서로 다른 기약표현 사이의 연동 사상 #
+만약 $D_a(g)$와 $D_b(g)$가 군 $G$의 서로 동등하지 않은 기약표현이고, $A$가 모든 $g \in G$에 대해 다음을 만족하는 선형 연산자라면:
+$$D_a(g)A = AD_b(g)$$
+그러면 $A = 0$입니다.
+증명: #
+$A|\mu\rangle = 0$을 만족하는 영이 아닌 벡터 $|\mu\rangle$가 존재한다고 가정합시다. $P$를 $|\mu\rangle$에 대한 투영 연산자라고 합시다.</description></item><item><title>- 군 표현론에서의 직교성 관계</title><link>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</link><pubDate>Sun, 30 Mar 2025 23:53:21 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.1.finite.groups/orthogonal_relations/</guid><description>서론 #
+이 문서는 유한 군의 기약 표현이 어떻게 작용하는지 이해하는 데 기본이 되는 군 표현론에서의 직교성 관계에 대해 탐구합니다.
+이중선형 연산자와 변환 특성 #
+먼저 이중선형 연산자를 정의합니다:
+$$A^{ab}_{jl} = \sum_{g \in G} D_a(g^{-1})|a,j\rangle\langle b,l|D_b(g)$$ 이 연산자가 표현 행렬 $D_a(g_1)$에 의해 변환될 때:
+$$D_a(g_1)A^{ab}_{jl} = \sum_{g \in G} D_a(g_1g^{-1})|a,j\rangle \langle b,l|D_b(g)$$ $g&amp;rsquo;=g_1g^{-1}$로 치환하면, $g=g&amp;rsquo;^{-1}g_1$이 됩니다. 이를 통해 다음을 얻습니다:
+$$\begin{align} D_a(g_1)A^{ab}_{jl} &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g'^{-1}g_1) \\ &amp;= \sum_{g' \in G} D_a(g')|a,j\rangle\langle b,l|D_b(g')D_b(g_1) \\ &amp;= A^{ab}_{jl}D_b(g_1) \end{align}$$ 슈어의 보조정리 적용 #
+슈어의 보조정리에 의해 다음을 추론할 수 있습니다:</description></item><item><title>- 텐서 연산자</title><link>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</link><pubDate>Tue, 08 Apr 2025 20:30:49 +0900</pubDate><guid>https://osungh3956.github.io/docs/georgi/chapter.4.tensor.operators/tensor_operators/</guid><description>1. 리 군 표현 #
+$D(\alpha)$는 리 군 $G$의 원소 $g$를 나타내며, 여기서 $\alpha = (\alpha_1, \alpha_2, \ldots, \alpha_N)$이고, $g(0) = e$이므로 $D(0) = 1$입니다. 따라서,
+$$D(d\alpha) = 1 + i d\alpha_a X_a$$
+여기서,
+$$X_a = -i \frac{\partial D(\alpha)}{\partial \alpha_a}$$
+또한, 리 대수의 원소 $X$는 다음과 같이 표현할 수 있습니다.
+$$X = \alpha_a X_a = \boldsymbol{\alpha} \cdot \boldsymbol{X}$$
+2. 리 대수와 부분대수 #
+$J_a$가 $G$의 리 대수의 원소이고, $X_a$가 부분대수의 원소라면,</description></item><item><title>- 푸리에 급수에서 푸리에 변환으로의 발전</title><link>https://osungh3956.github.io/docs/supplementary/la/fourier_series_to_fourier_transformation/</link><pubDate>Thu, 13 Mar 2025 00:46:18 +0900</pubDate><guid>https://osungh3956.github.io/docs/supplementary/la/fourier_series_to_fourier_transformation/</guid><description>서론 #
+이 문서는 양자역학과 신호처리에서 기본이 되는 푸리에 급수에서 푸리에 변환으로의 수학적 발전 과정을 설명합니다.
+벡터 기저 표현으로서의 푸리에 급수 #
+벡터 기저 형태의 푸리에 급수 표현은 다음과 같이 작성할 수 있습니다:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \psi(n)|n\rangle$$
+이 합에 면적의 의미를 부여하기 위해, $n$을 x축 상의 값 $x&amp;rsquo;$로 볼 수 있습니다:
+$$|\psi\rangle = \sum_{n=-\infty}^{\infty} \Delta x&amp;rsquo; \psi(n \Delta x&amp;rsquo;) |n \Delta x&amp;rsquo;\rangle$$
+여기서 $\Delta x&amp;rsquo; = 1$입니다.
+$\Delta x&amp;rsquo; \to 0$이고 $n \Delta x&amp;rsquo; = x&amp;rsquo;$일 때, 이를 적분으로 표현할 수 있습니다:</description></item></channel></rss>
